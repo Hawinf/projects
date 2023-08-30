@@ -33,9 +33,9 @@ const Navbar = () => {
                             </div>
                             <div className="section-header">
                                 <div className="header">
-                                    <h4>Healthy Food Live Longer</h4>
-                                    <h1 className="tittle">LANDSNATURE</h1>
-                                    <p>Which was born in Central Java Indonesia, inspired by michael jaksin ckuaks.</p>
+                                    <h4 className="slogan">Healthy Food Live Longer</h4>
+                                    <h1 className="tittle"><span>LANDS</span>NATURE</h1>
+                                    <p className="slogan-1">Which was born in Central Java Indonesia, inspired by michael jaksin ckuaks.</p>
                                     <button className="btn btn-success">Learn More</button>
                                 </div>
                                     

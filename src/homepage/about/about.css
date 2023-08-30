@@ -1,3 +1,21 @@
 .about {
-    background-color: rgb(16, 163, 16);
+    background: rgb(7,36,0);
+    padding: 20px 0;
+    height: 300px;
+    position: relative;
+    text-align: center;
+}
+.about-judul {
+    font-size: 90px;
+    font-weight: 700;
+    color: #513030;
+    /* text-align: center; */
+    margin: auto;
+    line-height: 270px;
+}
+.about-content {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    /* top: 10; */
 }
