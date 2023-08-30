@@ -2,7 +2,7 @@
 .contents {
     position: relative;
     background-color: #f1f3ff;
-    height: 100vh;
+    height: 100%;
     padding-top: 1px;
     font-family: 'Roboto Condensed', sans-serif;
     /* font-weight: 700; */
@@ -42,7 +42,7 @@
     right: 0;
     bottom: 0;
     /* bottom: 23px; */
-    width: 35%;
+    width: 30%;
 }
 .header button {
     font-weight: 700;
