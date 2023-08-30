@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="main-about">
             <div className="about">
-                <h1 className="about-judul">About</h1>
+                <h1 className="about-judul">- About -</h1>
             </div>
             <div className="about-content">
                 <div className="container">
@@ -20,7 +20,7 @@ const About = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="content-right">
-                                    <h4>We provide quality and expert information to help konjac lovers make educated choices about specialty konjac products for dietary needs.</h4>
+                                    <h4 className="content-desc">We provide quality and expert information to help konjac lovers make educated choices about specialty konjac products for dietary needs.</h4>
                                 </div>
                             </div>
                     </div>
