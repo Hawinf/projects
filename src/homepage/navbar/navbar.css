@@ -42,7 +42,7 @@
     right: 0;
     bottom: 0;
     /* bottom: 23px; */
-    width: 30%;
+    width: 22%;
 }
 .header button {
     font-weight: 700;
@@ -60,7 +60,8 @@
     background-color: rgb(49, 48, 48);
     position: relative;
     top: -1px;
-    height: 90vh;
+    /* height: 90vh; */
+    height: 100%;
     padding-top: 60px;
 }
 .navbar-hide-main {
