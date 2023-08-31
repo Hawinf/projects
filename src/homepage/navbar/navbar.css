@@ -33,7 +33,12 @@
     /* word-spacing: 10px; */
     font-size: 60px;
     line-height: 1;
-    
+}
+.header .slogan {
+    line-height: 10px;
+}
+.header .slogan-1 {
+    line-height: 1px;
 }
 .tittle span {
     color: #a0aced;
@@ -67,9 +72,11 @@
     background-color: rgb(49, 48, 48);
     position: relative;
     top: -1px;
-    /* height: 90vh; */
-    height: 100%;
     padding-top: 60px;
+    z-index: 5;
+    bottom: 0;
+    /* top: 0; */
+    height: 100vh;
 }
 .navbar-hide-main {
     display: flex;
@@ -129,6 +136,7 @@
     }
     .header .slogan-1 {
         font-size: 10px;
+        line-height: 9px;
     }
     .header-1 img {
         width: 47%;
@@ -166,6 +174,8 @@
     .header {
         padding-top: 70px;
     }
-    
+    .header .tittle {
+        font-size: 38px;
+    }
     
 }

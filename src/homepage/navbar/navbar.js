@@ -39,7 +39,7 @@ const Navbar = () => {
                                     <button className="btn btn-success">Learn More</button>
                                 </div>
                                     
-                                {/* hero section here below */}
+                                
                             </div>
                         </div>
 

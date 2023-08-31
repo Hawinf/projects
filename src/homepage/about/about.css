@@ -1,29 +1,40 @@
-.about {
+
+.main-about {
     background: rgb(7,36,0);
+    /* height: 100%; */
+    position: relative;
+}
+.about {
+    
     padding: 20px 0;
     /* height: 300px; */
-    height: 100%;
+    
     text-align: center;
-    position: relative;
+    /* position: relative; */
 }
 .about-judul {
     font-size: 90px;
     font-weight: 700;
     color: #513030;
     line-height: 270px;
-    position: relative;
+    /* position: relative; */
 }
 .about-content {
     position: absolute;
-    color: #8c9cf4;
+    /* position: relative; */
+    color: #575c7a;
     /* top: 110%; */
     /* right: 0px; */
-    bottom: 0;
+    /* bottom: 0; */
+    top: 10%;
 }
 .content-right .content-desc {
     font-weight: 700;
     font-size: 30px;
     line-height: 50px;
+}
+.content-left .about-pict {
+    width: 400px;
 }
 
 @media (max-width:992px) {
@@ -32,12 +43,50 @@
         line-height: 45px;
     }
 }
+@media (max-width:768px) {
+    .content-right .content-desc {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .about-content {
+        top: 6%;
+    }
+}
 
 @media (max-width:576px) {
-    .content-left {
+    .main-about {
+        background-color: white;
+    }
+    .about {
+        padding: 0;
+    }
+    .about-judul {
+        color: wheat;
+    }
+    .about-content {
+        top: 17%;
+    }
+    .content-right .content-desc {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .content-left .about-pict {
+        width: 300px;
+    }
+    
+}
+
+@media (max-width:575px) {
+    .about-judul {
         display: none;
     }
     .about-content {
-        bottom: 80px;
+        margin: 20px 0;
+    }
+}
+
+@media (max-width:323px) {
+    .content-left .about-pict {
+        width: 250px;
     }
 }
