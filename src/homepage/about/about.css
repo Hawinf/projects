@@ -55,7 +55,7 @@
 
 @media (max-width:576px) {
     .main-about {
-        background-color: white;
+        background-color: rgb(243, 123, 123);
     }
     .about {
         padding: 0;
@@ -82,7 +82,7 @@
         display: none;
     }
     .about-content {
-        margin: 20px 0;
+        padding: 20px 0;
         position: relative;
     }
 }
