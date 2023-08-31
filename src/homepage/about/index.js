@@ -1,6 +1,6 @@
 import React from "react";
 import HEADERKONJAC from '../../assests/hero-section.png';
-import ABOUTPIC from '../../assests/about-pict.svg';
+import ABOUTPIC from '../../assests/Stay1.png';
 import './about.css';
 
 const About = () => {

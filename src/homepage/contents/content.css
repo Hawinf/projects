@@ -1,0 +1,27 @@
+.content {
+    /* background: #c23030; */
+    background: wheat;
+    text-align: center;
+    padding: 20px 0;
+}
+.content h2 {
+    color: #872828;
+    font-size: 70px;
+    font-weight: 700;
+}
+.gallery {
+    margin: 0 25%; 
+}
+.content .gallery img {
+    /* width: 400px; */
+    height: 350px;
+    background-size: cover;
+}
+
+@media (max-width: 576px) {
+    .gallery {
+        margin: 0 10%;
+    }
+}
+
+
