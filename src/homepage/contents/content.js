@@ -45,7 +45,7 @@ const Content = () => {
                     <Link>
                         <div className="gallery">
                             <div className="ordinary">
-                            <img src={ORDINARY} alt="" />
+                                <img src={ORDINARY} alt="" />
                             </div>
                             <div className="description">
                             <button className="btn btn-success">Learn More</button>
@@ -59,7 +59,7 @@ const Content = () => {
                     <Link>
                         <div className="gallery">
                             <div className="premium">
-                            <img src={SUGAR} alt="" />
+                                <img src={SUGAR} alt="" />
                             </div>
                             <div className="description">
                             <button className="btn btn-success">Learn More</button>
