@@ -24,7 +24,7 @@ const Content = () => {
     };
     return (
       <div className="content">
-        <h2>Top 3 Our Miracle Products</h2>
+        <h2>Top 3 Our Products</h2>
         <Slider {...settings}>
             <Row>
               <Col lg={12}>       

@@ -1,11 +1,12 @@
 .content {
     /* background: #c23030; */
-    background: wheat;
+    /* background: wheat; */
+    background: green;
     text-align: center;
     padding: 40px 0;
 }
 .content h2 {
-    color: #872828;
+    color: rgb(1, 143, 1);
     font-size: 70px;
     font-weight: 700;
 }

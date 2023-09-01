@@ -1,7 +1,8 @@
 
 .main-about {
-    background: rgb(7,36,0);
+    /* background: rgb(7,36,0); */
     /* height: 100%; */
+    background: rgb(4, 174, 4);
     position: relative;
 }
 .about {
@@ -15,14 +16,14 @@
 .about-judul {
     font-size: 90px;
     font-weight: 700;
-    color: #513030;
+    color: rgb(2, 188, 2);
     line-height: 270px;
     /* position: relative; */
 }
 .about-content {
     position: absolute;
     /* position: relative; */
-    color: #575c7a;
+    color: green;
     /* top: 110%; */
     /* right: 0px; */
     /* bottom: 0; */
@@ -54,15 +55,13 @@
 }
 
 @media (max-width:576px) {
-    .main-about {
+    /* .main-about {
         background-color: rgb(243, 123, 123);
-    }
+    } */
     .about {
         padding: 0;
     }
-    .about-judul {
-        color: wheat;
-    }
+
     .about-content {
         top: 17%;
     }
