@@ -28,6 +28,13 @@
     /* right: 0px; */
     /* bottom: 0; */
     top: 13%;
+
+
+    
+}
+.putar {
+    display: flex;
+    justify-content: space-between;
 }
 .content-right .content-desc {
     font-weight: 700;
@@ -52,6 +59,7 @@
     .about-content {
         top: 6%;
     }
+    
 }
 
 @media (max-width:576px) {
@@ -71,6 +79,9 @@
     }
     .content-left .about-pict {
         width: 300px;
+    }
+    .putar {
+        flex-direction: column-reverse;
     }
     
 }
