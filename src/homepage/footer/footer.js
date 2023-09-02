@@ -28,7 +28,7 @@ const Footer = () => {
                                 <a href="#link-key-features">Key Features</a>
                             </div>
                             <div class="mb-1">
-                                <a href="#link-product">Product</a>
+                                <a href="/products">Product</a>
                             </div>
                         </div>
                     </div>

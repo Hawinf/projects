@@ -54,16 +54,16 @@ const Navbar = () => {
                 <div className="container">
                     <div className="navbar-hide-main">
                         <div className="navbar-menu">
-                            <a href="#">
+                            <a href="/">
                                 <h5>Home</h5>
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <h5>About</h5>
                             </a>
-                            <a href="#">
+                            <a href="/products">
                                 <h5>Products</h5>
                             </a>
-                            <a href="#">
+                            <a href="/">
                                 <h5>Contact</h5>
                             </a>
                         </div>

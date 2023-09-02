@@ -33,9 +33,6 @@ const Content = () => {
                             <div className="sugar">
                             <img src={PREMIUM} alt="" />
                             </div>
-                            <div className="description">
-                                <button className="btn btn-success">Learn More</button>
-                            </div>
                         </div>
                     </Link>
               </Col>
@@ -47,9 +44,6 @@ const Content = () => {
                             <div className="ordinary">
                                 <img src={ORDINARY} alt="" />
                             </div>
-                            <div className="description">
-                            <button className="btn btn-success">Learn More</button>
-                            </div>
                         </div>
                     </Link>
               </Col>
@@ -60,9 +54,6 @@ const Content = () => {
                         <div className="gallery">
                             <div className="premium">
                                 <img src={SUGAR} alt="" />
-                            </div>
-                            <div className="description">
-                            <button className="btn btn-success">Learn More</button>
                             </div>
                         </div>
                     </Link>
