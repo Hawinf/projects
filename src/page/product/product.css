@@ -15,8 +15,41 @@
 .product-header .product-desc {
     font-size: 17px;
     font-weight: 700;
+    padding-bottom: 20px;
 }
-
+.marque-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    border-top:  1px solid rgb(144, 159, 232); ;
+    color: rgb(144, 159, 232);
+    border-bottom: 1px solid rgb(144, 159, 232);
+    background: rgba(2, 0, 36, 100);
+    margin-bottom: 30px;
+}
+.marque-text .marque-desc {
+    padding-top: 5px;
+}
+.card-product {
+    margin-bottom: 50px;
+}
+.card-product .card {
+    box-shadow: 0 0 4px rgba(0,0,0,.15);
+    margin: 30px 10px 10px;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.card img {
+    height: 300px;
+    background-size: cover;
+    border-radius: 4px;
+}
+.card .product-judul {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 30px;
+}
+/* product akhir */
 @media (max-width:992px) {
     .product-header .product-tittle {
         font-size: 50px;
@@ -24,11 +57,17 @@
     .product-header .product-desc {
         font-size: 15px;
     }
+    .card img {
+        height: 200px;
+    }
 }
 
 @media (max-width:768px) {
     .product-header .product-tittle {
         font-size: 40px;
+    }
+    .card img {
+        height: 370px;
     }
 }
 
@@ -36,9 +75,7 @@
     .product-header .product-tittle {
         font-size: 30px;
     }
-    .marquee-text {
-        font-size: 17px;
-    }
+    
 }
 
 @media (max-width:440px) {
@@ -48,30 +85,12 @@
     .product-header .product-desc {
         font-size: 12px;
     }
+    .card img {
+        height: 300px;
+    }
 }
 
 
 /* marque start */
-.marquee-container {
-    white-space: nowrap;
-    overflow: hidden;
-    border: 1px solid blue;
-    background: lightblue;
-  }
-  
-  .marquee-text {
-    animation: marquee 10s linear infinite; /* Adjust duration and other properties as needed */
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 25px;
-  }
-  
-  @keyframes marquee {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
+
 /* marque end */
