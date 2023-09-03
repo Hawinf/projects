@@ -33,7 +33,9 @@ const Product = () => {
                                         <img src={ProductRice} />
                                         <h6 className="product-judul">Rice</h6>
                                         <p>Food producers appreciate the precise, consistent sizes of our our product, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
-                                        <Link className='btn btn-success'>Learn More</Link>
+                                        <Link to='/rice' className='btn btn-success'>
+                                            Learn More
+                                        </Link>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +45,9 @@ const Product = () => {
                                         <img src={ProductSugar} />
                                         <h6 className="product-judul">Sugar</h6>
                                         <p>Food producers appreciate the precise, consistent sizes of our our product which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
-                                        <Link className='btn btn-success'>Learn More</Link>        
+                                        <Link to='/sugar' className='btn btn-success'>
+                                            Learn More
+                                        </Link>        
                                 </div>
                             </div>
                         </div>
@@ -53,7 +57,9 @@ const Product = () => {
                                         <img src={ProductPowder} />
                                         <h6 className="product-judul">Powder</h6>
                                         <p>Food producers appreciate the precise, consistent sizes of our product, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
-                                        <Link className='btn btn-success'>Learn More</Link>
+                                        <Link to='/powder' className='btn btn-success'>
+                                            Learn More
+                                        </Link>
                                 </div>
                             </div>
                         </div>

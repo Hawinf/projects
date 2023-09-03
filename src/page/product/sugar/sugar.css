@@ -1,0 +1,68 @@
+.sugar {
+    margin: 50px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.sugar-content {
+    display: flex;
+    justify-content: space-around;
+}
+.sugar-content .sugar-left {
+    width: 20%;
+}
+.sugar-left img {
+    height: 300px;
+}
+.sugar-content .sugar-right {
+    width: 40%;
+}
+.sugar-right-judul {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sugar-right-desc {
+    font-weight: 500;
+}
+@media (max-width:992px) {
+    .sugar-content .sugar-left {
+        width: 30%;
+    }
+    .sugar-content .sugar-right {
+        width: 40%;
+    }
+    .sugar-right-judul {
+        font-size: 25px;
+    }
+    .sugar-right-desc {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .sugar-left img {
+        height: 240px;
+    }
+    .sugar-right-judul {
+        font-size: 20px;
+    }
+    .sugar-right-desc {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:576px) {
+    .sugar-content {
+        display: block;
+        text-align: center;
+    }
+    .sugar-content .sugar-left {
+        width: 100%;
+    }
+    .sugar-content .sugar-right {
+        width: 100%;
+    }
+    .sugar-right-judul {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}

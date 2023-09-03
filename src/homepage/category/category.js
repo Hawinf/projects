@@ -15,19 +15,19 @@ const Category = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-4 col-sm-4">
                             <div className="number">
-                                <a href="/">RICE</a>
+                                <a href="/rice">RICE</a>
                                 <img src={TWO} />
                             </div>
                         </div>
                         <div className="col-lg-4  col-md-4  col-sm-4">
                             <div className="number">
-                                <a  href="/">SUGAR</a>
+                                <a  href="/sugar">SUGAR</a>
                                 <img src={ONE} />
                             </div>
                         </div>
                         <div className="col-lg-4  col-md-4  col-sm-4">
                             <div  className="number">
-                                <a  href="/">POWDER</a>
+                                <a  href="/powder">POWDER</a>
                                 <img src={THREE} />
                             </div>
                         </div>

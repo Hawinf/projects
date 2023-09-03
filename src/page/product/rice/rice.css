@@ -1,0 +1,56 @@
+/* .rice-hero .rice-card {
+    height: 300px;
+} */
+.rice-header {
+    margin: 70px 0;
+}
+.product-rice {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.rice-card .detail-rice {
+    height: 300px;
+}
+.product-rice .rice-left {
+    width: 40%;
+    margin-bottom: 30px;
+}
+.product-rice .rice-right {
+    width: 50%;
+}
+.rice-right .rice-right-judul {
+    font-size: 30px;
+    font-weight: 600;
+}
+.rice-right .rice-right-desc {
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .product-rice .rice-left {
+        width: 50%;
+    }
+    .product-rice .rice-right {
+        width: 50%;
+    }
+    .rice-right .rice-right-judul {
+        font-size: 25px;
+    }
+    .rice-right .rice-right-desc {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-rice {
+        display: block;
+        text-align: center;
+    }
+    .product-rice .rice-left {
+        width: 100%;
+    }
+    .product-rice .rice-right {
+        width: 100%;
+    }
+}

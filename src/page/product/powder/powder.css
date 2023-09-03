@@ -1,0 +1,78 @@
+.powder {
+    margin: 50px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.powder-detail {
+    display: flex;
+    justify-content: space-around;
+}
+.powder-left {
+    width: 10%;
+    /* margin-right: 10px; */
+}
+.powder-right {
+    width: 65%;
+}
+.powder-right .powder-right-judul {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.powder-right .powder-right-desc {
+    font-weight: 500;
+}
+.powder-left img {
+    height: 250px;
+    
+}
+
+
+
+@media (max-width:992px) {
+    .powder-left {
+        width: 15%;
+        /* margin-right: 10px; */
+    }
+    .powder-right {
+        width: 55%;
+    }
+    .powder-right .powder-right-judul {
+        font-size: 30px;
+    }
+    .powder-right .powder-right-desc {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .powder-left {
+        width: 20%;
+        /* margin-right: 10px; */
+    }
+    .powder-right {
+        width: 50%;
+    }
+    .powder-right .powder-right-judul {
+        font-size: 25px;
+    }
+    .powder-right .powder-right-desc {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:576px) {
+    .powder-detail {
+        display: block;
+        /* text-align: center; */
+    }
+    .powder-left {
+        width: 100%;
+        /* margin-right: 10px; */
+    }
+    .powder-right {
+        width: 100%;
+    }
+    .powder-right .powder-right-judul {
+        margin-top: 10px;
+    }
+}
