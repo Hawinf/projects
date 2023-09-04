@@ -17,6 +17,7 @@
     height: 280px;
     width: 340px;
     background-size: cover;
+    border-radius: 5px;
 }
 .card-career {
     margin-top: 50px;
