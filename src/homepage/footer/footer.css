@@ -1,9 +1,16 @@
 .footer {
     /* background: rgb(85, 127, 143); */
-    background: rgb(140, 108, 28);
+    /* background: rgb(140, 108, 28); */
+    background-color: rgb(222,222,222);
     padding-top: 40px;
     padding-bottom: 20px;
-    color: rgb(138, 157, 165);
+    /* color: rgb(138, 157, 165); */
+    opacity: 0.8;
+background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
+    border-radius: 7px;
+    color:rgb(85, 85, 85);
 }
 .footer .address {
     font-size: 15px;
@@ -18,7 +25,7 @@
     color: rgb(138, 157, 165);
 }
 .footer .menu-dropdown a:hover {
-    color: rgb(194, 222, 234);
+    color: rgb(18, 19, 20);
 }
 .hak-cipta .copyright {
     font-weight: 700;

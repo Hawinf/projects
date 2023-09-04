@@ -1,43 +1,33 @@
-.content {
-    /* background: #c23030; */
-    /* background: wheat; */
-    background: green;
-    text-align: center;
-    padding: 40px 0;
+.content-wrapper {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 50px;
+    /* background-color: rgb(222, 222, 222); */
 }
-.content h2 {
-    color: rgb(1, 143, 1);
-    font-size: 70px;
+.content-title .content-judul {
     font-weight: 700;
+    font-size: 30px;
 }
-.gallery {
-    margin: 0 25%; 
+.content-title .content-desc {
+    font-weight: 600;
 }
-.content .gallery img {
-    /* width: 400px; */
-    height: 350px;
-    background-size: cover;
+.main-content .card {
+    padding: 15px;
+    opacity: 0.8;
+background-image:  radial-gradient(#a8adfe 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
+    border-radius: 7px;
+    color:rgb(85, 85, 85);
 }
-
-@media (max-width:768px) {
-    .content h2 {
-        font-size: 50px;
-    }
+.main-content .feature-img {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 7px;
 }
-
-@media (max-width: 576px) {
-    .content h2 {
-        font-size: 40px;
-    }
-    .gallery {
-        margin: 0 10%;
-    }
+.main-content .key-feature {
+    font-weight: 600;
+    font-size: 25px;
 }
-
-@media (max-width: 512px) {
-    .content h2 {
-        font-size: 30px;
-    }
+.main-content .feature-desc {
+    font-weight: 500;
 }
-
-

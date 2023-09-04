@@ -1,92 +1,46 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import SUGAR from '../../assests/10.png';
-import PREMIUM from '../../assests/1.png';
-import ORDINARY from '../../assests/2.png';
-import EXCHANGE from '../../assests/3.png';
+import React from "react";
+import Quality from '../../assests/quality-service.png';
+import Comitment from '../../assests/relationship.png';
+import Inovation from '../../assests/innovation.png';
 import Rate from '../../assests/rating.png';
-import {Card, Row, Col} from "react-bootstrap";
-import './content.css';
-import { Link } from "react-router-dom";
-
+import './content.css'
 
 const Content = () => {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 1000,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 2000,
-    };
     return (
-      <div className="content">
-        <h2>Top 3 Our Products</h2>
-        <Slider {...settings}>
-            <Row>
-              <Col lg={12}>       
-                    <Link>
-                        <div className="gallery">
-                            <div className="sugar">
-                            <img src={PREMIUM} alt="" />
+        <div className="content-wrapper">
+            <div className="container">
+                <div className="content-title">
+                    <h1 className="content-judul">Why Us ?</h1>
+                    <p className="content-desc">Our Key Features</p>
+                </div>
+                <div className="main-content">
+                    <div className="row">
+                        <div className="col-lg-4 mb-2">
+                            <div className="card">
+                                <img className="feature-img" src={Quality} alt="Quality Service" />
+                                <h1 className="key-feature">Quality</h1>
+                                <p className="feature-desc">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment, and delivering results that meet customer expectations.</p>
                             </div>
                         </div>
-                    </Link>
-              </Col>
-            </Row>
-            <Row>
-              <Col lg={12}>          
-                    <Link>
-                        <div className="gallery">
-                            <div className="ordinary">
-                                <img src={ORDINARY} alt="" />
+                        <div className="col-lg-4 mb-2">
+                            <div className="card">
+                                <img  className="feature-img" src={Comitment} alt="Trust Worthy" />
+                                <h1 className="key-feature">Trust Worthy</h1>
+                                <p className="feature-desc">Commitment is important where we will continue to provide the best to our customers and investors all the time. Our opportunity to serve should be viewed as a privilege that is not to be taken for granted.</p>
                             </div>
                         </div>
-                    </Link>
-              </Col>
-            </Row>
-            <Row>
-              <Col lg={12}>          
-                    <Link>
-                        <div className="gallery">
-                            <div className="premium">
-                                <img src={SUGAR} alt="" />
+                        <div className="col-lg-4 mb-2">
+                            <div className="card">
+                                <img  className="feature-img" src={Inovation} alt="Innovation" />
+                                <h1  className="key-feature">Innovation</h1>
+                                <p className="feature-desc">Innovation refers to the process of creating and introducing new ideas, products, services, or processes that improve or solve existing problems in a novel and effective way.</p>
                             </div>
-                        </div>
-                    </Link>
-              </Col>
-            </Row>
-        </Slider>
-      </div>
-    );
-  };
-  
-  export default Content;
-
-
-
-
-
-
-   {/* <div className="container">
-                <div className="row">
-                    <div className="col-lg-4">
-                        <div className="gallery">
-                            <img className="sugar" src={SUGAR} />
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="gallery">
-                            <img className="sugar" src={SUGAR} />
-                        </div>
-                    </div>
-                    <div className="col-lg-4">
-                        <div className="gallery">
-                            <img className="sugar" src={SUGAR} />
                         </div>
                     </div>
                 </div>
-            </div> */}
+            </div>
+        </div>
+    );
+};
+
+export default Content;
