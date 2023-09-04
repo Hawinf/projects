@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../../homepage/footer/footer";
 import './contact.css';
 
 const Contact = () => {
+    const [submit, setSubmit] = useState('')
+
+    const onSubmit = () => {
+        alert('Unable to send website under maintainance')
+    }
     return (
         <>
         <div className="wrapper-contact">
@@ -40,7 +45,7 @@ const Contact = () => {
                             <div>
                                 <input className="message" placeholder="*Message" />
                             </div>
-                            <button className="btn btn-success">
+                            <button onClick={onSubmit} className="btn btn-success">
                                 Submit
                             </button>
                         </div>
