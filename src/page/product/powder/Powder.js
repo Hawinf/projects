@@ -6,7 +6,7 @@ import Footer from "../../../homepage/footer/footer";
 
 const Powder = () => {
     return (
-        <>
+    <>
         <div className="powder">
             <div className="container">
                 <div className="powder-detail mb-5">
@@ -48,7 +48,7 @@ const Powder = () => {
             </div>
         </div>
         <Footer  />
-        </>
+    </>
     );
 };
 

@@ -10,7 +10,7 @@ import './product.css'
 
 const Product = () => {
     return (
-        <div>
+        <div className="wrapper-product">
             <div className="product">
                 <div className="container">
                     <div className="product-header">

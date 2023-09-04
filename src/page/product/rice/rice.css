@@ -3,6 +3,7 @@
 } */
 .rice-header {
     margin: 70px 0;
+    padding-bottom: 30px;
 }
 .product-rice {
     display: flex;

@@ -1,0 +1,52 @@
+.wrapper-career {
+    margin: 70px 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+.wrapper-career .career-judul {
+    font-weight: 700;
+}
+.wrapper-career .career-desc {
+    font-weight: 600;
+    color: gray;
+}
+.wrapper-career .tombol-career {
+    font-weight: 600;
+}
+.wrapper-career .career-image {
+    height: 280px;
+    width: 340px;
+    background-size: cover;
+}
+
+@media (max-width:992px) {
+    .wrapper-career .career-image {
+        height: 250px;
+        width: 300px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .wrapper-career .career-image {
+        height: 100%;
+        width: 100%;
+    }
+    .wrapper-career .career-judul {
+        font-size: 25px;
+    }
+    .wrapper-career .career-desc {
+        font-size: 13px;
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper-career .career-judul {
+        font-size: 20px;
+    }
+    .wrapper-career .career-desc {
+        font-size: 11px;
+    }
+}
+
+

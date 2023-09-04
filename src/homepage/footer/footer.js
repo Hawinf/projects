@@ -22,13 +22,16 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <div class="menu-dropdown mb-4">
                             <div class="mb-1">
-                                <a href="#link-discover">Discover</a>
+                                <a href="/discover">Discover</a>
                             </div>
                             <div class="mb-1">
                                 <a href="#link-key-features">Key Features</a>
                             </div>
                             <div class="mb-1">
                                 <a href="/products">Product</a>
+                            </div>
+                            <div class="mb-1">
+                                <a href="/career">Career</a>
                             </div>
                         </div>
                     </div>

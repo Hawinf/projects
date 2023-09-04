@@ -6,6 +6,8 @@ import Product from './page/product/product';
 import Rice from './page/product/rice/Rice';
 import Powder from './page/product/powder/Powder';
 import Sugar from './page/product/sugar/Sugar';
+import Discover from './page/discover/Discover';
+import Career from './page/career/Career';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Route path='/rice' element={<Rice />} />
       <Route path='/sugar' element={<Sugar />} />
       <Route path='/powder' element={<Powder />} />
+      <Route path='/discover' element={<Discover />} />
+      <Route path='/career' element={<Career />} />
     </Routes>
   );
 }
