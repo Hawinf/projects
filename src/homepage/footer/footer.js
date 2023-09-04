@@ -15,8 +15,8 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-6">
                         <div className="address mb-4">
                             <p>Batang Regency, Central Java Indonesia</p>
-                            <p>Info@landsnatures.com</p>
-                            <p>+628586666666</p>
+                            <p>Info@landsnature.com</p>
+                            <p>+62 82 145 145 565</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
@@ -25,13 +25,13 @@ const Footer = () => {
                                 <a href="/discover">Discover</a>
                             </div>
                             <div class="mb-1">
-                                <a href="#link-key-features">Key Features</a>
-                            </div>
-                            <div class="mb-1">
                                 <a href="/products">Product</a>
                             </div>
                             <div class="mb-1">
                                 <a href="/career">Career</a>
+                            </div>
+                            <div class="mb-1">
+                                <a href="/contact">Contact</a>
                             </div>
                         </div>
                     </div>

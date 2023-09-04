@@ -8,6 +8,7 @@ import Powder from './page/product/powder/Powder';
 import Sugar from './page/product/sugar/Sugar';
 import Discover from './page/discover/Discover';
 import Career from './page/career/Career';
+import Contact from './page/contact/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path='/powder' element={<Powder />} />
       <Route path='/discover' element={<Discover />} />
       <Route path='/career' element={<Career />} />
+      <Route path='/contact' element={<Contact />} />
     </Routes>
   );
 }

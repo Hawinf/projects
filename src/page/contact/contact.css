@@ -1,0 +1,55 @@
+.wrapper-contact {
+    margin: 70px 0;
+    padding-bottom: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.wrapper-contact .contact-judul {
+    margin-bottom: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+.contact-judul .contact-judul1 {
+    font-weight: 600;
+
+    color: gray;
+}
+.contact-judul .contact-judul2 {
+    font-weight: 700;
+}
+
+
+.contact-info .info-judul {
+    font-weight: 700;
+}
+.contact-info .info-content {
+    font-weight: 500;
+    color: gray;
+}
+
+.contact-form .form-judul {
+    font-weight: 600;
+}
+.contact-form input {
+    width: 100%;
+    margin-bottom: 5px;
+    height: 50px;
+    border-radius: 4px;
+}
+.contact-form .message {
+    height: 100px;
+}
+
+@media (max-width:992px) {
+    .contact-judul .contact-judul1 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:576px) {
+    .contact-judul .contact-judul1 {
+        font-size: 11px;
+    }
+    .contact-judul .contact-judul2 {
+        font-size: 20px;
+    }
+}
