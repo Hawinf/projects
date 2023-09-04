@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="wrapper-contact">
             <div className="container">
                 <div className="contact-judul">
-                    <h6 className="contact-judul1">Have a question about our almond products or opportunities to work with Treehouse? Let us know and someone from our team will get back to you promptly.</h6>
+                    <h6 className="contact-judul1">Have a question about our products or opportunities to work with Landsnature? Let us know and someone from our team will get back to you promptly.</h6>
                     <h1 className="contact-judul2">We Are Here For You</h1>
                 </div>
                 <div className="row">
