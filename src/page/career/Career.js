@@ -17,7 +17,11 @@ const Career = () => {
             <div className="wrapper-career">
                 <h1 className="career-judul">Adventure Your Career With Us</h1>
                 <p className="career-desc">We’re leading the pricing revolution and we need passionate people to join the movement.</p>
-                <button className="btn btn-success tombol-career mb-5" onClick={onCareer}>Available Position</button>
+                <button className="btn btn-success tombol-career mb-5" onClick={onCareer}>
+                    {
+                        career ? 'Job Position' : 'Not Available'
+                    }
+                </button>
                 
                 {
                     career ? (
