@@ -108,7 +108,7 @@ const Navbar = () => {
             </div>
         // akhir
                 )
-            };     
+            }     
         </div>
     );
 };
