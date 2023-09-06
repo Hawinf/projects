@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import DiscoverPict from '../../assests/discover.jpg';
 import Marquee from "react-fast-marquee";
+import Stories5 from '../../assests/stories5.jpg';
 import Stories4 from '../../assests/stories4.jpg';
 import Stories3 from '../../assests/stories3.jpg';
 import './discover.css';
@@ -40,6 +41,7 @@ const Discover = () => {
                                 <Marquee>
                                     <img className="story" src={Stories4} />
                                     <img className="story" src={Stories3} />
+                                    <img className="story" src={Stories5} />
                                 </Marquee>
                                 </div>
                             </div>
