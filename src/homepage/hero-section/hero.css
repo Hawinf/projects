@@ -51,7 +51,7 @@
 @media (max-width:576px) {
     .hero-wrapper {
         text-align: center;
-        height: 70vh;
+        height: 100%;
     }
     .hero-left {
         padding: 130px 0;
@@ -62,5 +62,10 @@
     }
     .hero-wrapper .hero-judul1 {
         font-size: 13px;
+    }
+    .hero-left .hero-tombol {
+        color: black;
+        -webkit-text-fill-color: whitesmoke;
+        -webkit-text-stroke-width: 1px;
     }
 }
