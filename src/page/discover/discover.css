@@ -1,4 +1,5 @@
 .wrapper-discover {
+    ;
     margin: 70px 0;
     padding-bottom: 50px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -21,11 +22,48 @@
     height: 300px;
     border-radius: 22px 0 22px 0;
 }
+.stories-discover {
+    margin: 40px 0;
+}
+.stories-discover .stories-judul {
+    font-weight: 700;
+    /* font-size: 40px; */
+}
+.stories-discover .stories-desc {
+    font-weight: 500;
+    color: gray;
+}
+.our-right .our-right-judul {
+    font-weight: 700;
+}
+.our-right .our-right-desc {
+    font-weight: 500;
+    color: gray;
+}
+.our-people img {
+    height: 350px;
+    margin-right: 10px;
+}
 
 @media (max-width:768px) {
     .discover-content .discover-section-right img {
         width: 300px;
         height: 250px;
+    }
+    .discover-section-left .discover-desc {
+        font-size: 13px;
+    }
+    .stories-discover .stories-judul {
+        font-size: 25px;
+    }
+    .stories-discover .stories-desc {
+        font-size: 13px;
+    }
+    .our-right .our-right-judul {
+        font-size: 25px;
+    }
+    .our-right .our-right-desc {
+        font-size: 13px;
     }
 }
 
@@ -39,6 +77,12 @@
     .discover-content .discover-section-right img {
         border-radius: 22px;
         width: 100%;
+        height: 300px;
+    }
+    .our-right .our-right-judul {
+        margin-top: 20px;
+    }
+    .our-people img {
         height: 300px;
     }
 }

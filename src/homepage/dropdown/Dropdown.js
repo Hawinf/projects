@@ -13,7 +13,7 @@ const ContentDropdown = () => {
                     <div className="col-lg-6">
                         <div className="drop-left">
                             <h3 className="drop-judul">Frequently Asked Question</h3>
-                            <p className="drop-desc">Frequently Asked Question</p>
+                            <p className="drop-desc">a collection of common questions.</p>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -33,13 +33,13 @@ const ContentDropdown = () => {
                                                 <Accordion.Item eventKey="1">
                                                     <Accordion.Header>What is the minimum order quantity (MOQ) for international buyers?</Accordion.Header>
                                                     <Accordion.Body>
-                                                        Minimum order for international shipping 1000kg
+                                                        Subject upon requirement.
                                                     </Accordion.Body>
                                                 </Accordion.Item>
                                                 <Accordion.Item eventKey="2">
                                                     <Accordion.Header>Can I request custom packaging or labeling for my order?</Accordion.Header>
                                                     <Accordion.Body>
-                                                        You can custom the product, be aware customizing product will be addtional charge.
+                                                        Product packaging can be customized, be aware customizing product will be addtional charge.
                                                     </Accordion.Body>
                                                 </Accordion.Item>
                                                 <Accordion.Item eventKey="3">
