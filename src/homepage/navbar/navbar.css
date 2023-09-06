@@ -1,9 +1,11 @@
 
 .contents {
     position: relative;
-    background-color: #f1f3ff;
-    height: 100%;
+    /* background-color: #f1f3ff; */
+    /* background-color: grey; */
+    /* height: 100%; */
     padding-top: 1px;
+    /* position: fixed; */
     font-family: 'Roboto Condensed', sans-serif;
     /* font-weight: 700; */
 }
@@ -76,6 +78,9 @@
     z-index: 5;
     bottom: 0;
     /* top: 0; */
+    top: 0;
+    left: 0;
+    
     height: 100vh;
 }
 .navbar-hide-main {

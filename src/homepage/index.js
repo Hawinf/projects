@@ -11,12 +11,12 @@ const Homepage = () => {
     return (
         <>
             <NavbarComponent />
-            <About />
+            {/* <About />
             <Content />
             <Category  />
             <CardTop  />
             <ContentDropdown />
-            <Footer  />
+            <Footer  /> */}
         </>
     );
 };

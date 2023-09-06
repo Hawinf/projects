@@ -25,15 +25,33 @@ const ContentDropdown = () => {
                                         <div>
                                             <Accordion defaultActiveKey="0">
                                                 <Accordion.Item eventKey="0">
-                                                    <Accordion.Header className="accor-head">Accordion Item #1</Accordion.Header>
+                                                    <Accordion.Header className="accor-head">Do you offer international shipping?</Accordion.Header>
                                                     <Accordion.Body>
-                                                        First Item
+                                                        Yes, we do. Be aware of Shipping Logistics, Shipping Costs, Customs and Duties, Documentation, Import Licensing, Phytosanitary and Health Inspections. and be aware of customs regulations and import duties in the destination countries.
                                                     </Accordion.Body>
                                                 </Accordion.Item>
                                                 <Accordion.Item eventKey="1">
-                                                    <Accordion.Header>Accordion Item #2</Accordion.Header>
+                                                    <Accordion.Header>What is the minimum order quantity (MOQ) for international buyers?</Accordion.Header>
                                                     <Accordion.Body>
-                                                        Second Item
+                                                        Minimum order for international shipping 1000kg
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+                                                <Accordion.Item eventKey="2">
+                                                    <Accordion.Header>Can I request custom packaging or labeling for my order?</Accordion.Header>
+                                                    <Accordion.Body>
+                                                        You can custom the product, be aware customizing product will be addtional charge.
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+                                                <Accordion.Item eventKey="3">
+                                                    <Accordion.Header>What are the payment options for international orders?</Accordion.Header>
+                                                    <Accordion.Body>
+                                                        Further Discussion
+                                                    </Accordion.Body>
+                                                </Accordion.Item>
+                                                <Accordion.Item eventKey="4">
+                                                    <Accordion.Header>Do you provide product samples?</Accordion.Header>
+                                                    <Accordion.Body>
+                                                        We do provide the sample.
                                                     </Accordion.Body>
                                                 </Accordion.Item>
                                             </Accordion>

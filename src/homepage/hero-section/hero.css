@@ -1,0 +1,24 @@
+.hero-wrapper {
+    height: 80vh;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.hero-left {
+    padding: 200px 0;
+}
+.hero-wrapper .hero-judul {
+    font-weight: 700;
+   
+}
+.hero-wrapper .hero-judul1 {
+    font-weight: 500;
+}
+
+@media (max-width:576px) {
+    .hero-wrapper .hero-judul {
+        font-size: 20px;
+       
+    }
+    .hero-wrapper .hero-judul1 {
+        font-size: 13px;
+    }
+}

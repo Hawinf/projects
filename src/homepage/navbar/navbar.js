@@ -10,6 +10,15 @@ import HEADERKONJAC from '../../assests/hero-section.png';
 import './navbar.css'
 import { Link } from "react-router-dom";
 
+import HeroSection from "../hero-section/hero";
+import About from '../about/index';
+import Content from '../contents/content'
+import Category from "../category/category"
+import Footer from "../footer/footer";
+import CardTop from "../card/CardTop";
+import ContentDropdown from '../dropdown/Dropdown';
+
+
 const Navbar = () => {
     const [hideNav, setHideNav] = useState(true);
 
@@ -31,21 +40,17 @@ const Navbar = () => {
                                     <img src={MENU} />
                                 </div>
                             </div>
-                            <div className="section-header">
-                                <div className="header">
-                                    <h4 className="slogan">Healthy Food Live Longer</h4>
-                                    <h1 className="tittle"><span>LANDS</span>NATURE</h1>
-                                    <p className="slogan-1">Which was born in Central Java Indonesia.</p>
-                                    <button className="btn btn-success">Learn More</button>
-                                </div>
-                                    
-                                
-                            </div>
                         </div>
 
-                        <div className="header-1">
-                        <img src={HEADERKONJAC} />
-                        </div>
+                        <HeroSection />
+                        <About />
+                        <Content />
+                        <Category  />
+                        <CardTop  />
+                        <ContentDropdown />
+                        <Footer  />
+
+                        
             </>
             // akhir
                 ) : (
