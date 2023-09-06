@@ -51,6 +51,10 @@
 @media (max-width:576px) {
     .hero-wrapper {
         text-align: center;
+        height: 70vh;
+    }
+    .hero-left {
+        padding: 130px 0;
     }
     .hero-wrapper .hero-judul {
         font-size: 30px;
