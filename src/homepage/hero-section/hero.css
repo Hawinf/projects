@@ -9,23 +9,37 @@
 }
 .hero-left .hero-tombol {
     font-weight: 700;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    margin-top: 2px;
 }
 .hero-wrapper .hero-judul {
     font-size: 70px;
     font-weight: 700;
+    color: black;
+        -webkit-text-fill-color: whitesmoke;
+        -webkit-text-stroke-width: 2px;
    
 }
 .hero-wrapper .hero-judul1 {
     font-weight: 700;
+    color: black;
+        -webkit-text-fill-color: whitesmoke;
+        -webkit-text-stroke-width: 1px;
 }
 
 @media (max-width:992px) {
+    
     .hero-wrapper .hero-judul {
         font-size: 50px;
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:768px) {
+    .hero-wrapper {
+        background-size: contain;
+    }
     .hero-wrapper .hero-judul {
         font-size: 40px;
     }
@@ -35,6 +49,9 @@
 }
 
 @media (max-width:576px) {
+    .hero-wrapper {
+        text-align: center;
+    }
     .hero-wrapper .hero-judul {
         font-size: 30px;
        
