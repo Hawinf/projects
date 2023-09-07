@@ -24,7 +24,7 @@ const Discover = () => {
                 <div className="container">
                     <div className="discover-content">
                         
-                            <div className="discover-section-left">
+                            <div className="discover-section-left" data-aos='fade-left'>
                                 <h2 className="discover-judul">Success Stories</h2>
                                 <p className="discover-desc">Landsnature's inception was rooted in environmental consciousness, a vision that has thrived with the passage of time. Our deep concern has always revolved around the imminent threat to essential food ingredients, posed by the dwindling rice fields, unpredictable weather patterns, and recurrent planting failures. In response, we have embarked on a relentless journey of innovation, driven by a commitment to discover healthier alternatives to safeguard our future, effectively substituting for rice.</p>
                                 <Link to='/contact' className="btn btn-success link">
@@ -32,12 +32,12 @@ const Discover = () => {
                                 </Link>
                             </div>
                         
-                            <div className="discover-section-right">
+                            <div className="discover-section-right" data-aos='fade-right'>
                                 <img src={DiscoverPict} />
                             </div>
                     
                     </div>
-                    <div className="stories-discover">
+                    <div className="stories-discover" data-aos='zoom-out'>
                         <h1 className="stories-judul">The First Campaign on Landsnature Was Our Own</h1>
                         <p className="stories-desc">Landsnature had its humble beginnings as a home-based industry, working with limited production tools. Yet, during that period, our products faced fierce competition in the thriving local market due to their high demand and customer satisfaction. As our reputation grew, so did our production capacity, eventually leading us to explore international markets. Adapting to the changing times, we continuously enhance our products to cater to a broader audience, earning recognition both nationally and internationally.</p>
                     </div>
@@ -52,7 +52,7 @@ const Discover = () => {
                                 </Marquee>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6">
+                            <div className="col-lg-6 col-md-6" data-aos='fade-out'>
                                 <div className="our-right">
                                     <h1 className="our-right-judul">Growing Together</h1>
                                     <p className="our-right-desc">Landsnature has been a remarkable source of inspiration for numerous individuals and has actively engaged the community in bolstering the local economy. Through increased production and the expansion of our workforce, we are committed to fostering economic growth. Our unwavering dedication to product excellence is driven by our overarching goal: to enrich lives in every conceivable dimension.</p>

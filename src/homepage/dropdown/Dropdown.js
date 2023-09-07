@@ -19,13 +19,13 @@ const ContentDropdown = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="drop-left">
+                        <div className="drop-left" data-aos='fade-right'>
                             <h3 className="drop-judul">Frequently Asked Question</h3>
                             <p className="drop-desc">a collection of common questions.</p>
                         </div>
                     </div>
                     <div className="col-lg-6">
-                        <div className="drop-right">
+                        <div className="drop-right" data-aos='fade-left'>
                         <>
                                 <Row>
                                     <Col>

@@ -36,7 +36,7 @@ const Product = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-4">
-                            <div className="card-product">
+                            <div className="card-product" data-aos='fade-right'>
                                 <div className="card">
                                         <img src={ProductRice} />
                                         <h6 className="product-judul">Rice</h6>
@@ -48,7 +48,7 @@ const Product = () => {
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className="card-product">
+                            <div className="card-product" data-aos='fade-down'>
                                 <div className="card">
                                         <img src={ProductSugar} />
                                         <h6 className="product-judul">Sugar</h6>
@@ -60,7 +60,7 @@ const Product = () => {
                             </div>
                         </div>
                         <div className="col-lg-4">
-                            <div className="card-product">
+                            <div className="card-product" data-aos='fade-left'>
                                 <div className="card">
                                         <img src={ProductPowder} />
                                         <h6 className="product-judul">Powder</h6>

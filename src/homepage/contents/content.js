@@ -25,21 +25,21 @@ useEffect(() => {
                 <div className="main-content">
                     <div className="row">
                         <div className="col-lg-4 mb-2">
-                            <div className="card">
+                            <div className="card" data-aos='fade-left'>
                                 <img className="feature-img" src={Quality} alt="Quality Service" />
                                 <h1 className="key-feature">Quality</h1>
                                 <p className="feature-desc">Quality is exhibited in many ways by selling and supporting products and services that delight customers, establishing a work environment, and delivering results that meet customer expectations.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 mb-2">
-                            <div className="card">
+                            <div className="card" data-aos='fade-down'>
                                 <img  className="feature-img" src={Comitment} alt="Trust Worthy" />
                                 <h1 className="key-feature">Trust Worthy</h1>
                                 <p className="feature-desc">Commitment is important where we will continue to provide the best to our customers and investors all the time. Our opportunity to serve should be viewed as a privilege that is not to be taken for granted.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 mb-2">
-                            <div className="card">
+                            <div className="card" data-aos='fade-right'>
                                 <img  className="feature-img" src={Inovation} alt="Innovation" />
                                 <h1  className="key-feature">Innovation</h1>
                                 <p className="feature-desc">Innovation refers to the process of creating and introducing new ideas, products, services, or processes that improve or solve existing problems in a novel and effective way.</p>

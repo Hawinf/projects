@@ -22,18 +22,18 @@ const Category = () => {
                 <div  className="container">
                     <div className="row">
                         <div className="col-lg-4 col-md-4 col-sm-4">
-                            <div className="number">
+                            <div className="number" data-aos='fade-left'>
                                 <a href="/rice">RICE</a>
                                 <img src={TWO} />
                             </div>
                         </div>
-                        <div className="col-lg-4  col-md-4  col-sm-4">
+                        <div className="col-lg-4  col-md-4  col-sm-4" data-aos='fade-down'>
                             <div className="number">
                                 <a  href="/sugar">SUGAR</a>
                                 <img src={ONE} />
                             </div>
                         </div>
-                        <div className="col-lg-4  col-md-4  col-sm-4">
+                        <div className="col-lg-4  col-md-4  col-sm-4" data-aos='fade-right'>
                             <div  className="number">
                                 <a  href="/powder">POWDER</a>
                                 <img src={THREE} />

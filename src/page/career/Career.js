@@ -36,20 +36,20 @@ const Career = () => {
                     career ? (
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-4 col-md-12 mb-2">
+                                <div className="col-lg-4 col-md-12 mb-2" data-aos='fade-right'>
                                     <img className="career-image" src={CareerImg} />
                                 </div>
-                                <div className="col-lg-4  col-md-12 mb-2">
+                                <div className="col-lg-4  col-md-12 mb-2" data-aos='fade-down'>
                                     <img className="career-image" src={CareerImg1} />
                                 </div>
-                                <div className="col-lg-4  col-md-12 mb-2">
+                                <div className="col-lg-4  col-md-12 mb-2" data-aos='fade-left'>
                                     <img className="career-image" src={CareerImg2} />
                                 </div>
                             </div>
                         </div>
                     ) : (
-                        <div className="container">
-                            <div className="card-career">
+                        <div className="container" >
+                            <div className="card-career" data-aos='fade-down'>
                                 <h4>Job Not Available</h4>
                             </div>
                         </div>

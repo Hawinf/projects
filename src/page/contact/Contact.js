@@ -26,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-6 col-md-12 mb-5">
-                        <div className="contact-info">
+                        <div className="contact-info" data-aos='fade-right'>
                             <h6 className="info-judul">Email</h6>
                             <p className="info-content">info@landsnature.com</p>
                             <h6 className="info-judul">Phone</h6>
@@ -36,7 +36,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                        <div className="contact-form">
+                        <div className="contact-form" data-aos='fade-left'>
                             <h5 className="form-judul">Please complete this form to connect with us.</h5>
                             <div>
                                 <input placeholder="*Full Name" />
