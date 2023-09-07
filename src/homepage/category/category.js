@@ -5,10 +5,18 @@ import TWO from '../../assests/number-2.png'
 import THREE from '../../assests/number-3.png';
 import { Link } from "react-router-dom";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const Category = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
         
-        <div className="category">
+        <div className="category" data-aos='fade-down'>
             <h1 className="judul">Category</h1>
             <div className="macam-macam">
                 <div  className="container">

@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Footer from "../../homepage/footer/footer";
 import './contact.css';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Contact = () => {
     const [submit, setSubmit] = useState('')
@@ -8,9 +12,13 @@ const Contact = () => {
     const onSubmit = () => {
         alert('Unable to send website under maintainance')
     }
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
         <>
-        <div className="wrapper-contact">
+        <div className="wrapper-contact" data-aos='fade-down'>
             <div className="container">
                 <div className="contact-judul">
                     <h6 className="contact-judul1">Have a question about our products or opportunities to work with Landsnature? Let us know and someone from our team will get back to you promptly.</h6>

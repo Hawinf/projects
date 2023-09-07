@@ -6,9 +6,17 @@ import LI from '../../assests/linkedin.png';
 import TW from '../../assests/twitter.png';
 import './footer.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const Footer = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
-        <footer className="footer">
+        <footer className="footer" data-aos='fade-up'>
         <div className="container">
             <div className="row">
                 

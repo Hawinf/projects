@@ -5,9 +5,18 @@ import Inovation from '../../assests/innovation.png';
 import Rate from '../../assests/rating.png';
 import './content.css'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const Content = () => {
+    
+useEffect(() => {
+    AOS.init({duration: 2000})
+},[])
+
     return (
-        <div className="content-wrapper">
+        <div className="content-wrapper" data-aos='fade-down'>
             <div className="container">
                 <div className="content-title">
                     <h1 className="content-judul">Why Us ?</h1>

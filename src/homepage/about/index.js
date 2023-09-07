@@ -3,9 +3,17 @@ import HEADERKONJAC from '../../assests/hero-section.png';
 import ABOUTPIC from '../../assests/Stay1.png';
 import './about.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const About = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
-        <div className="main-about">
+        <div className="main-about" data-aos='fade-right'>
             <div className="about">
                 <h1 className="about-judul">About</h1>
             </div>

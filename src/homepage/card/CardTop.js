@@ -2,9 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import './cardtop.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const CardTop = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
-        <div className="cardtop-wrapper">
+        <div className="cardtop-wrapper" data-aos='fade-down'>
             <div className="container">
                 <div className="col-lg-12">
                     <div className="card">

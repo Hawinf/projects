@@ -5,9 +5,17 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './dropdown.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const ContentDropdown = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
-        <div className="dropdown-wrapper">
+        <div className="dropdown-wrapper" data-aos='fade-down'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

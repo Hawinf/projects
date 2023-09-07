@@ -1,4 +1,4 @@
-import React from "react";
+import React  from "react";
 import { Link } from "react-router-dom";
 import DiscoverPict from '../../assests/discover.jpg';
 import Marquee from "react-fast-marquee";
@@ -8,12 +8,19 @@ import Stories3 from '../../assests/stories3.jpg';
 import './discover.css';
 import Footer from "../../homepage/footer/footer";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const Discover = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
 
     const newLocal = "discover-pict";
     return (
         <>
-            <div className="wrapper-discover">
+            <div className="wrapper-discover" data-aos='fade-down'>
                 <div className="container">
                     <div className="discover-content">
                         

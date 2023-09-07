@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import LOGO from '../../assests/logo3.png';
 import MENU from '../../assests/menu.png';
 import IG from '../../assests/instagram.png';
@@ -18,6 +18,9 @@ import Footer from "../footer/footer";
 import CardTop from "../card/CardTop";
 import ContentDropdown from '../dropdown/Dropdown';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 
 const Navbar = () => {
     const [hideNav, setHideNav] = useState(true);
@@ -25,13 +28,18 @@ const Navbar = () => {
     const klik = () => {
         setHideNav(!hideNav);
     }
+
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
         <div className="contents">
             {
                 hideNav ? (
             // awal
             <>
-                        <div className="container">
+                        <div className="container" data-aos='fade-down'>
                             <div className="navbar">
                                 <div className="navbar-left">
                                     <img src={LOGO} />
