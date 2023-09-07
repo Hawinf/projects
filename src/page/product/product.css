@@ -95,7 +95,7 @@
         height: 370px;
     }
     .card .card-desc {
-        height: 130px;
+        height: 100%;
         color: grey;
     }
 }
