@@ -15,7 +15,7 @@ const Product = () => {
                 <div className="container">
                     <div className="product-header">
                         <h1 className="product-tittle">Products Category</h1>
-                        <p className="product-desc">Sourced from a wide array of public reviews, we’ve narrowed down this list of the top 3 of our products available now. The top contenders were judged on a variety of factors, but the main categories were boiled down to sheer heat, a balance of sweet, and overall flavor.</p>
+                        <p className="product-desc">Sourced from a wide array of public reviews, we’ve narrowed down this list of the top 3 of our products available now. The top contenders were judged on a variety of factors and overall.</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@ const Product = () => {
                                 <div className="card">
                                         <img src={ProductRice} />
                                         <h6 className="product-judul">Rice</h6>
-                                        <p>Food producers appreciate the precise, consistent sizes of our our product, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
+                                        <p className="card-desc"> konjac rice is a made from the konjac plant's root, offers a viable option for individuals seeking to reduce calorie and carbohydrate intake, particularly for those following low-carb or ketogenic diets.</p>
                                         <Link to='/rice' className='btn btn-success link'>
                                             Learn More
                                         </Link>
@@ -44,7 +44,7 @@ const Product = () => {
                                 <div className="card">
                                         <img src={ProductSugar} />
                                         <h6 className="product-judul">Sugar</h6>
-                                        <p>Food producers appreciate the precise, consistent sizes of our our product which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
+                                        <p className="card-desc">sugar cassava is a versatile tropical root crop known for its high starch content and sweet taste, making it a valuable source of carbohydrates for various culinary purposes.</p>
                                         <Link to='/sugar' className='btn btn-success link'>
                                             Learn More
                                         </Link>        
@@ -56,7 +56,7 @@ const Product = () => {
                                 <div className="card">
                                         <img src={ProductPowder} />
                                         <h6 className="product-judul">Powder</h6>
-                                        <p>Food producers appreciate the precise, consistent sizes of our product, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
+                                        <p className="card-desc"> konjac powder is a versatile and unique ingredient derived from the konjac plant's root. Its high content of glucomannan fiber gives it various applications in the food industry as a thickening agent, gelling agent, and low-calorie, low-carb alternative in various dishes.</p>
                                         <Link to='/powder' className='btn btn-success link'>
                                             Learn More
                                         </Link>
