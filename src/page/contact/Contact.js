@@ -27,7 +27,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-lg-6 col-md-12 mb-5">
                         <div className="contact-info" data-aos='fade-right'>
-                            <h6 className="info-judul">Email</h6>
+                            <h6 className="info-judul" required>Email</h6>
                             <p className="info-content">info@landsnature.com</p>
                             <h6 className="info-judul">Phone</h6>
                             <p className="info-content">+62 82 145 145 656</p>

@@ -21,10 +21,10 @@ const Powder = () => {
         <div className="powder" data-aos='fade-down'>
             <div className="container">
                 <div className="powder-detail mb-5">
-                    <div className="powder-left">
+                    <div className="powder-left" data-aos='fade-right'>
                         <img src={KonjacPowder}  />
                     </div>
-                    <div className="powder-right">
+                    <div className="powder-right" data-aos='fade-left'>
                         <h6 className="powder-right-judul">Konjac Powder</h6>
                         <p className="powder-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world. Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
                         <Link to='/contact' className='btn btn-success link'>
@@ -33,10 +33,10 @@ const Powder = () => {
                     </div>
                 </div>
                 <div className="powder-detail mb-5">
-                    <div className="powder-left">
+                    <div className="powder-left" data-aos='fade-right'>
                         <img src={GlPowderSun}  />
                     </div>
-                    <div className="powder-right">
+                    <div className="powder-right" data-aos='fade-left'>
                         <h6 className="powder-right-judul">Glucomannan Powder Sun Dried</h6>
                         <p className="powder-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world. Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
                         <Link to='/contact' className='btn btn-success link'>
@@ -45,10 +45,10 @@ const Powder = () => {
                     </div>
                 </div>
                 <div className="powder-detail mb-5">
-                    <div className="powder-left">
+                    <div className="powder-left" data-aos='fade-right'>
                         <img src={GlPowderOven}  />
                     </div>
-                    <div className="powder-right">
+                    <div className="powder-right" data-aos='fade-left'>
                         <h6 className="powder-right-judul">Glucomannan Powder Oven Dried</h6>
                         <p className="powder-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world. Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
                         <Link to='/contact' className='btn btn-success link'>
