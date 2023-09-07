@@ -15,7 +15,7 @@ const Product = () => {
                 <div className="container">
                     <div className="product-header">
                         <h1 className="product-tittle">Products Category</h1>
-                        <p className="product-desc">Sourced from a wide array of public reviews, we’ve narrowed down this list of the top 10 of our products available now. The top contenders were judged on a variety of factors, but the main categories were boiled down to sheer heat, a balance of sweet, and overall flavor.</p>
+                        <p className="product-desc">Sourced from a wide array of public reviews, we’ve narrowed down this list of the top 3 of our products available now. The top contenders were judged on a variety of factors, but the main categories were boiled down to sheer heat, a balance of sweet, and overall flavor.</p>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@ const Product = () => {
                                         <img src={ProductRice} />
                                         <h6 className="product-judul">Rice</h6>
                                         <p>Food producers appreciate the precise, consistent sizes of our our product, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
-                                        <Link to='/rice' className='btn btn-success'>
+                                        <Link to='/rice' className='btn btn-success link'>
                                             Learn More
                                         </Link>
                                 </div>
@@ -45,7 +45,7 @@ const Product = () => {
                                         <img src={ProductSugar} />
                                         <h6 className="product-judul">Sugar</h6>
                                         <p>Food producers appreciate the precise, consistent sizes of our our product which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
-                                        <Link to='/sugar' className='btn btn-success'>
+                                        <Link to='/sugar' className='btn btn-success link'>
                                             Learn More
                                         </Link>        
                                 </div>
@@ -57,7 +57,7 @@ const Product = () => {
                                         <img src={ProductPowder} />
                                         <h6 className="product-judul">Powder</h6>
                                         <p>Food producers appreciate the precise, consistent sizes of our product, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
-                                        <Link to='/powder' className='btn btn-success'>
+                                        <Link to='/powder' className='btn btn-success link'>
                                             Learn More
                                         </Link>
                                 </div>

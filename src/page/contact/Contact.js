@@ -45,7 +45,7 @@ const Contact = () => {
                             <div>
                                 <input className="message" placeholder="*Message" />
                             </div>
-                            <button onClick={onSubmit} className="btn btn-success">
+                            <button onClick={onSubmit} className="btn btn-success link">
                                 Submit
                             </button>
                         </div>

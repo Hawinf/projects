@@ -39,6 +39,7 @@
 @media (max-width:768px) {
     .hero-wrapper {
         background-size: contain;
+        margin: 30px 0;
     }
     .hero-wrapper .hero-judul {
         font-size: 40px;
@@ -58,7 +59,7 @@
     }
     .hero-wrapper .hero-judul {
         font-size: 30px;
-       
+        -webkit-text-stroke-width: 1px;
     }
     .hero-wrapper .hero-judul1 {
         font-size: 13px;

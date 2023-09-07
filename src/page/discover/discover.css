@@ -1,5 +1,4 @@
 .wrapper-discover {
-    ;
     margin: 70px 0;
     padding-bottom: 50px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -10,9 +9,15 @@
 }
 .discover-section-left .discover-judul {
     font-weight: 700;
+    color: black;
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke-width: 1px;
 }
 .discover-section-left .link {
     font-weight: 600;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
 }
 .discover-section-left .discover-desc {
     font-weight: 500;
@@ -28,6 +33,9 @@
 .stories-discover .stories-judul {
     font-weight: 700;
     /* font-size: 40px; */
+    color: black;
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke-width: 2px;
 }
 .stories-discover .stories-desc {
     font-weight: 500;
@@ -35,6 +43,9 @@
 }
 .our-right .our-right-judul {
     font-weight: 700;
+    color: black;
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke-width: 2px;
 }
 .our-right .our-right-desc {
     font-weight: 500;
@@ -50,20 +61,24 @@
         width: 300px;
         height: 250px;
     }
+    
     .discover-section-left .discover-desc {
         font-size: 13px;
     }
     .stories-discover .stories-judul {
         font-size: 25px;
+        -webkit-text-stroke-width: 1px;
     }
     .stories-discover .stories-desc {
         font-size: 13px;
     }
     .our-right .our-right-judul {
         font-size: 25px;
+        -webkit-text-stroke-width: 1px;
     }
     .our-right .our-right-desc {
         font-size: 13px;
+        
     }
 }
 

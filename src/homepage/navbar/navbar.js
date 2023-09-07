@@ -102,8 +102,8 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-footer">
-                    <h6>MAKE YOUR DAILY HEALTHY</h6>
-                    <h1>FOOD MUCH MORE USEFUL</h1>
+                    <h6 className="slogan-hide">MAKE YOUR DAILY HEALTHY</h6>
+                    <h1 className="slogan-hide1">FOOD MUCH MORE USEFUL</h1>
                 </div>
             </div>
         // akhir

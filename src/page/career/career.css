@@ -2,9 +2,13 @@
     margin: 70px 0;
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+    padding-bottom: 100px;
 }
 .wrapper-career .career-judul {
     font-weight: 700;
+    color: black;
+    -webkit-text-fill-color: whitesmoke;
+    -webkit-text-stroke-width: 1px;
 }
 .wrapper-career .career-desc {
     font-weight: 600;
@@ -12,6 +16,9 @@
 }
 .wrapper-career .tombol-career {
     font-weight: 600;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
 }
 .wrapper-career .career-image {
     height: 280px;

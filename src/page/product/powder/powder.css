@@ -22,6 +22,12 @@
 .powder-right .powder-right-desc {
     font-weight: 500;
 }
+.powder-right .link {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    font-weight: 700;
+}
 .powder-left img {
     height: 250px;
     

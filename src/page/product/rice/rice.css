@@ -27,6 +27,12 @@
 .rice-right .rice-right-desc {
     font-weight: 500;
 }
+.rice-right .link {
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    font-weight: 700;
+}
 
 @media (max-width: 768px) {
     .product-rice .rice-left {
