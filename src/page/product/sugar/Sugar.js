@@ -4,9 +4,18 @@ import { Link } from "react-router-dom";
 import './sugar.css'
 import Footer from "../../../homepage/footer/footer";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const Sugar = () => {
+    
+useEffect(() => {
+    AOS.init({duration: 2000})
+},[])
+
     return (<>
-                <div className="sugar">
+                <div className="sugar" data-aos='fade-down'>
                     <div className="container">
                         <div className="sugar-content mb-5">
                             <div className="sugar-left">

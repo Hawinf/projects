@@ -7,10 +7,18 @@ import KonjacPowder from '../../../assests/konjac.powder.jpg';
 import './powder.css'
 import Footer from "../../../homepage/footer/footer";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const Powder = () => {
+    
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
     return (
     <>
-        <div className="powder">
+        <div className="powder" data-aos='fade-down'>
             <div className="container">
                 <div className="powder-detail mb-5">
                     <div className="powder-left">

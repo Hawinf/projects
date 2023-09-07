@@ -8,9 +8,17 @@ import Marquee from "react-fast-marquee";
 import Footer from '../../homepage/footer/footer.js'
 import './product.css'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
+
 const Product = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+    },[])
+
     return (
-        <div className="wrapper-product">
+        <div className="wrapper-product" data-aos='fade-down'>
             <div className="product">
                 <div className="container">
                     <div className="product-header">
