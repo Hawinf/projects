@@ -19,8 +19,7 @@ const Rice = () => {
                             </div>
                             <div className="rice-right">
                                 <h6 className="rice-right-judul">Rice Premium</h6>
-                                <p className="rice-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world.
-                                    Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency
+                                <p className="rice-right-desc">premium konjac rice stands out as a high-quality alternative to traditional rice, known for its low-calorie, low-carb, and gluten-free properties. Its premium designation often implies superior texture, taste, and overall quality compared to standard konjac rice products. This culinary innovation offers health-conscious individuals and those with dietary restrictions a satisfying option for reducing calorie and carbohydrate intake without sacrificing flavor or satisfaction. Incorporating premium konjac rice into a well-balanced diet can be a valuable addition.
                                 </p>
                                 <Link to='/contact' className="btn btn-success link">
                                     Get Quotation
@@ -36,8 +35,7 @@ const Rice = () => {
                                 </div>
                                 <div className="rice-right">
                                     <h6 className="rice-right-judul">Rice Ordinary</h6>
-                                    <p  className="rice-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world.
-                                        Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency
+                                    <p  className="rice-right-desc"> ordinary konjac rice presents a practical and health-conscious alternative to traditional rice, valued for its low-calorie, low-carb, and gluten-free characteristics. While it may not boast the premium quality or unique texture of specialized konjac rice products, it provides a viable option for individuals seeking to reduce calorie and carbohydrate intake. This versatile culinary ingredient offers the potential for weight management and digestive benefits due to its high fiber content.
                                     </p>
                                     <Link to='/contact' className="btn btn-success link">
                                         Get Quotation

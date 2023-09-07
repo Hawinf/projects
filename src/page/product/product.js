@@ -44,7 +44,7 @@ const Product = () => {
                                 <div className="card">
                                         <img src={ProductSugar} />
                                         <h6 className="product-judul">Sugar</h6>
-                                        <p className="card-desc">sugar cassava is a versatile tropical root crop known for its high starch content and sweet taste, making it a valuable source of carbohydrates for various culinary purposes.</p>
+                                        <p className="card-desc">Moderation is key when it comes to sugar intake, and it's important to be mindful of hidden sugars in processed foods and drinks. Choosing natural sweeteners or alternatives and maintaining a balanced diet is essential for promoting overall health and well-being.</p>
                                         <Link to='/sugar' className='btn btn-success link'>
                                             Learn More
                                         </Link>        
