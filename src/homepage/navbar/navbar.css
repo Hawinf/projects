@@ -20,6 +20,7 @@
 }
 .navbar .navbar-right img {
     width: 60px;
+    cursor: pointer;
 }
 .header {
     padding-top: 100px;
