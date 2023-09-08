@@ -1,5 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import emailjs from '@emailjs/browser';
 import Footer from "../../homepage/footer/footer";
+import { useNavigate } from "react-router-dom";
+
 
 import './contact.css';
 
@@ -8,11 +11,25 @@ import 'aos/dist/aos.css'
 
 
 const Contact = () => {
+    const form = useRef();
+    const navigate = useNavigate();
     const [submit, setSubmit] = useState('')
 
-    const onSubmit = () => {
-        alert('Unable to send website under maintainance')
-    }
+    const onSubmit = (e) => {
+        e.preventDefault();
+    
+        emailjs
+        .sendForm('service_c4unx63', 'template_hi2cweh', form.current, 'O6kW2CQ05u5yU26Om')
+          .then((result) => {
+            alert('Thank you for your inquiry, our team will reach you out shortly')
+            //   console.log(result.text);
+              navigate('/')
+          }, (error) => {
+              console.log(error.text);
+          });
+          
+      };
+
     useEffect(() => {
         AOS.init({duration: 2000})
     },[])
@@ -29,7 +46,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-lg-6 col-md-12 mb-5">
                         <div className="contact-info" data-aos='fade-right'>
-                            <h6 className="info-judul" required>Email</h6>
+                            <h6 className="info-judul">Email</h6>
                             <p className="info-content">info@landsnature.com</p>
                             <h6 className="info-judul">Phone</h6>
                             <p className="info-content">+62 82 145 145 656</p>
@@ -38,27 +55,30 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
-                        <div className="contact-form" data-aos='fade-left'>
+                        <form ref={form} onSubmit={onSubmit} className="contact-form" data-aos='fade-left'>
                             <h5 className="form-judul">Please complete this form to connect with us.</h5>
                             <div>
-                                <input placeholder="*Full Name" />
+                                <input placeholder="*Full Name" type="text" name="user_name" required/>
                             </div>
                             <div>
-                                <input placeholder="*Email" />
+                                <input placeholder="*Email" type="email" name="user_email" required/>
                             </div>
                             <div>
-                                <input placeholder="*Company" />
+                                <input placeholder="*Company" type="text" name="user_company" required/>
                             </div>
                             <div>
-                                <input placeholder="*Website" />
+                                <input placeholder="*Website" type="text" name="user_website" required/>
                             </div>
                             <div>
-                                <input className="message" placeholder="*Message" />
+                                <input placeholder="*subject" type="text" name="subject" required />
+                            </div>
+                            <div>
+                                <textarea className="message" type="text" placeholder="*Message" name="message" required/>
                             </div>
                             <button onClick={onSubmit} className="btn btn-success link">
-                                Submit
+                                Send Message
                             </button>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
