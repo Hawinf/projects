@@ -28,7 +28,7 @@ const Powder = () => {
                     </div>
                     <div className="powder-right" data-aos='fade-left'>
                         <h6 className="powder-right-judul">Konjac Powder</h6>
-                        <p className="powder-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world. Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
+                        <p className="powder-right-desc"> Konjac powder is a versatile and popular ingredient known for its various uses in the food and cosmetic industries. Derived from the root of the Konjac plant, it offers a range of benefits, including its ability to thicken, gel, and stabilize products. Its unique properties make it an excellent choice for thickening sauces, soups, and desserts, as well as for creating low-calorie noodles and dietary supplements.</p>
                         <Link to='/contact' className='btn btn-success link'>
                             Get Quotation
                         </Link>
@@ -40,7 +40,7 @@ const Powder = () => {
                     </div>
                     <div className="powder-right" data-aos='fade-left'>
                         <h6 className="powder-right-judul">Glucomannan Powder Sun Dried</h6>
-                        <p className="powder-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world. Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
+                        <p className="powder-right-desc">Sun-Dried Glucomannan powder is a natural dietary supplement derived from the root of the Konjac plant. It is well-regarded for its potential health benefits, including promoting weight loss, supporting digestive health, and aiding in blood sugar management. </p>
                         <Link to='/contact' className='btn btn-success link'>
                             Get Quotation
                         </Link>
@@ -52,7 +52,7 @@ const Powder = () => {
                     </div>
                     <div className="powder-right" data-aos='fade-left'>
                         <h6 className="powder-right-judul">Glucomannan Powder Oven Dried</h6>
-                        <p className="powder-right-desc">Treehouse California Almonds is a leader in creating diced almonds for its customers in a variety of sizes to ensure that their products retain their distinctiveness – and nutritional halo – in the marketplace. We dice natural, roasted and organic almonds for customers around the world. Food producers appreciate the precise, consistent sizes of our diced almonds, which lets them use 100% of what they receive from us – with zero waste and zero compromise in product quality or process efficiency</p>
+                        <p className="powder-right-desc">Oven-Dried Glucomannan powder is a dietary supplement made from the root of the Konjac plant. It offers potential health benefits, including weight management, improved digestion, and blood sugar control. Its oven-drying process helps preserve its properties and make it a convenient addition to a healthy lifestyle. When used responsibly and as part of a balanced diet, it can contribute to overall well-being.</p>
                         <Link to='/contact' className='btn btn-success link'>
                             Get Quotation
                         </Link>
