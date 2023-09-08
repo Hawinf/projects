@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+import NavbarOne from "../../../homepage/navbarone/NavbarOne";
 
 const Rice = () => {
     useEffect(() => {
@@ -16,6 +17,7 @@ const Rice = () => {
 
     return (
         <>
+        <NavbarOne />
             <div className="rice-header" data-aos='fade-down'>
                 <div className="rice-hero">
                     <div className="container">

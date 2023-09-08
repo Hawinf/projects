@@ -7,6 +7,8 @@ import Footer from "../../../homepage/footer/footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+import NavbarOne from "../../../homepage/navbarone/NavbarOne";
+
 
 const Sugar = () => {
     
@@ -15,6 +17,7 @@ useEffect(() => {
 },[])
 
     return (<>
+            <NavbarOne />
                 <div className="sugar" data-aos='fade-down'>
                     <div className="container">
                         <div className="sugar-content mb-5">

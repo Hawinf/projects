@@ -7,6 +7,7 @@ import Footer from "../../homepage/footer/footer";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import NavbarOne from "../../homepage/navbarone/NavbarOne";
 
 const Career = () => {
     const [career, setCareer] = useState(true);
@@ -23,6 +24,7 @@ const Career = () => {
 
     return (
         <>
+        <NavbarOne />
             <div className="wrapper-career" data-aos='fade-down'>
                 <h1 className="career-judul">Adventure Your Career With Us</h1>
                 <p className="career-desc">We’re leading the pricing revolution and we need passionate people to join the movement.</p>

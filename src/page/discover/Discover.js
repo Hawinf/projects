@@ -7,6 +7,7 @@ import Stories4 from '../../assests/stories4.jpg';
 import Stories3 from '../../assests/stories3.jpg';
 import './discover.css';
 import Footer from "../../homepage/footer/footer";
+import NavbarOne from "../../homepage/navbarone/NavbarOne";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -20,6 +21,7 @@ const Discover = () => {
     const newLocal = "discover-pict";
     return (
         <>
+        <NavbarOne />
             <div className="wrapper-discover" data-aos='fade-down'>
                 <div className="container">
                     <div className="discover-content">

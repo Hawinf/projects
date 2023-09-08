@@ -10,6 +10,7 @@ import Discover from './page/discover/Discover';
 import Career from './page/career/Career';
 import Contact from './page/contact/Contact';
 
+
 function App() {
   return (
     <Routes>
@@ -21,6 +22,7 @@ function App() {
       <Route path='/discover' element={<Discover />} />
       <Route path='/career' element={<Career />} />
       <Route path='/contact' element={<Contact />} />
+      
     </Routes>
   );
 }

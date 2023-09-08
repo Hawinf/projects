@@ -10,6 +10,7 @@ import Footer from "../../../homepage/footer/footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+import NavbarOne from "../../../homepage/navbarone/NavbarOne";
 
 const Powder = () => {
     
@@ -18,6 +19,7 @@ const Powder = () => {
     },[])
     return (
     <>
+    <NavbarOne />
         <div className="powder" data-aos='fade-down'>
             <div className="container">
                 <div className="powder-detail mb-5">

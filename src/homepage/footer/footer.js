@@ -41,6 +41,9 @@ const Footer = () => {
                             <div class="mb-1">
                                 <a href="/contact">Contact</a>
                             </div>
+                            <div class="mb-1">
+                                <a href="/">Home</a>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">

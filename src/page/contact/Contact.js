@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../../homepage/footer/footer";
+
 import './contact.css';
 
 import AOS from 'aos';
@@ -18,6 +19,7 @@ const Contact = () => {
 
     return (
         <>
+      
         <div className="wrapper-contact" data-aos='fade-down'>
             <div className="container">
                 <div className="contact-judul">
