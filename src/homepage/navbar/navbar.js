@@ -104,7 +104,7 @@ const Navbar = () => {
                                 </Link>
                             </div>
                             <div className="nav-social-logo" >
-                                <Link to='https://www.instagram.com/landsnatures/'>
+                                <Link to='https://www.linkedin.com/company/landsnature/'>
                                     <img src={LINKEDIN} />
                                 </Link>
                             </div>

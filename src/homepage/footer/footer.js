@@ -59,7 +59,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/landsnatures/">
                                 <img src={TW} alt="instagram" />
                             </a>
-                            <a href="https://m.facebook.com/profile.php?id=100076283083313&_rdr">
+                            <a href="https://www.linkedin.com/company/landsnature/">
                                 <img src={LI} alt="facebook" />
                             </a>
                         </div>
