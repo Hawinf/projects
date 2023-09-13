@@ -14,9 +14,12 @@ const Contact = () => {
     const form = useRef();
     const navigate = useNavigate();
     const [submit, setSubmit] = useState('')
+    
 
     const onSubmit = (e) => {
         e.preventDefault();
+
+       
     
         emailjs
         .sendForm('service_c4unx63', 'template_hi2cweh', form.current, 'O6kW2CQ05u5yU26Om')
@@ -49,8 +52,8 @@ const Contact = () => {
                             <h6 className="info-judul">Email</h6>
                             <p className="info-content">info@landsnature.com</p>
                             <h6 className="info-judul">Phone</h6>
-                            <p className="info-content">+62 82 145 145 656</p>
-                            <p className="info-content">+971 50 798 0896 ( Middle East )</p>
+                            <p className="info-content">+62 82 145 145 656 ( <i>Whatsapp Only</i> )</p>
+                            <p className="info-content">+971 50 798 0896 ( <i>Middle East</i> )</p>
                             <h6 className="info-judul">Address</h6>
                             <p className="info-content">Batang, Central Java Indonesia</p>
                         </div>

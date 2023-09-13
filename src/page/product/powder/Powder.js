@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import PowderPic from '../../../assests/product-powder.jpg';
-import GlPowderSun from '../../../assests/gl.powder.sun.png';
-import GlPowderOven from '../../../assests/gl.powder.oven.png';
-import KonjacPowder from '../../../assests/konjac.powder.jpg';
+import GlPowderSun from '../../../assests/powder3.png';
+import GlPowderOven from '../../../assests/powder2.png';
+import KonjacPowder from '../../../assests/powder1.png';
 import './powder.css'
 import Footer from "../../../homepage/footer/footer";
 

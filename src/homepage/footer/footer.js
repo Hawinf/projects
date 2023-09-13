@@ -25,6 +25,7 @@ const Footer = () => {
                             <p>Batang Regency, Central Java Indonesia</p>
                             <p>Info@landsnature.com</p>
                             <p>+62 82 145 145 565</p>
+                           
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
