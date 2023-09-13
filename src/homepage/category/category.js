@@ -17,7 +17,9 @@ const Category = () => {
     return (
         
         <div className="category" data-aos='fade-down'>
-            <h1 className="judul">Category</h1>
+            <Link to='/products' className="category-cate">
+                <h1 className="judul">Category</h1>
+            </Link>
             <div className="macam-macam">
                 <div  className="container">
                     <div className="row">
