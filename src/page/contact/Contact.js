@@ -60,7 +60,7 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <form ref={form} onSubmit={onSubmit} className="contact-form" data-aos='fade-left'>
-                            <h5 className="form-judul">Please complete this form to connect with us.</h5>
+                            <h5 className="form-judul">Connect with us.</h5>
                             <div>
                                 <input placeholder="*Full Name" type="text" name="user_name" required/>
                             </div>
