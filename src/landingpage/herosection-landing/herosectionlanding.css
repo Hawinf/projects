@@ -1,0 +1,24 @@
+.hero-landing {
+    height: 80vh;
+}
+.hero-land-left {
+    margin-top: 140px;
+}
+.hero-land-left .hero-land-judul {
+    font-weight: 700;
+}
+.hero-land-left .hero-land-desc {
+    font-weight: 400;
+}
+.hero-land-left .link {
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 600;
+}
+.hero-land-right {
+    margin-top: 10px;
+}
+.hero-land-right .hero-right-pict {
+    height: 400px;
+}

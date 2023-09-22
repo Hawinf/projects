@@ -10,13 +10,14 @@ import Sugar from './page/product/sugar/Sugar';
 import Discover from './page/discover/Discover';
 import Career from './page/career/Career';
 import Contact from './page/contact/Contact';
+import LandingPage from './landingpage/LandingPage';
 
 
 function App() {
   return (
     <Routes>
-      
-        <Route path='/' element={<Homepage />} />
+        <Route path='/' element={<LandingPage />} />
+        <Route path='/homepagefood' element={<Homepage />} />
         <Route path='/products' element={<Product />} />
         <Route path='/rice' element={<Rice />} />
         <Route path='/sugar' element={<Sugar />} />

@@ -54,10 +54,10 @@ const Navbar = () => {
 
                         <HeroSection />
                         <About />
-                        <Content />
+                        {/* <Content /> */}
                         <Category  />
                         <CardTop  />
-                        <ContentDropdown />
+                        {/* <ContentDropdown /> */}
                         <Footer  />
 
                         
