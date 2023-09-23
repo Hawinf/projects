@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
 import HeroFurniture from "./herofurniture/HeroFurniture";
+import Footer from "../homepage/footer/footer";
 
 
 const RootFurniture = () => {
@@ -21,6 +22,7 @@ const RootFurniture = () => {
                 </Link>
             </div>
             <HeroFurniture />
+            <Footer />
         </>
     );
 };
