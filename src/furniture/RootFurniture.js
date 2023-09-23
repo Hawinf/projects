@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+import HeroFurniture from "./herofurniture/HeroFurniture";
 
 
 const RootFurniture = () => {
@@ -13,11 +14,14 @@ const RootFurniture = () => {
     },[])
 
     return(
-        <div className="rootfurniture">
-            <Link to='/' data-aos='fade-down'>
-                <img className="furniture-logo" src={FurnitureHome} />
-            </Link>
-        </div>
+        <>
+            <div className="rootfurniture">
+                <Link to='/' data-aos='fade-down'>
+                    <img className="furniture-logo" src={FurnitureHome} />
+                </Link>
+            </div>
+            <HeroFurniture />
+        </>
     );
 };
 
