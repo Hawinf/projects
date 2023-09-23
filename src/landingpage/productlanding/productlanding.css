@@ -2,6 +2,13 @@
 .productlanding-left .productland-furniture {
     height: 300px;
     margin-right: 10px;
+    /* width: 30%; */
+}
+.productlanding-judul {
+    font-weight: 700;
+}
+.productlanding-right {
+    margin-right: 100px;
 }
 .productlanding-right .productland-food {
     height: 300px;

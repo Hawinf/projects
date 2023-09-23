@@ -1,0 +1,27 @@
+.about-landing {
+    /* background-image: url('../../assests/aboutlanding.jpg'); */
+    /* height: 600px; */
+    /* background-size: cover; */
+    display: flex;
+    margin: 20px 0;
+}
+.aboutlanding-right {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.aboutlanding-right .aboutlandind-judul {
+    font-weight: 700;
+}
+.aboutlanding-right .aboulanding-desc {
+    font-weight: 400;
+    margin-top: 10px;
+    font-size: 25px;
+    width: 85%;
+}
+.aboutlanding-right .about-tombol {
+    font-weight: 700;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    margin-top: 2px;
+}

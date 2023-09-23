@@ -16,6 +16,7 @@ import Content from "../../homepage/contents/content";
 import ContentDropdown from "../../homepage/dropdown/Dropdown";
 import Footer from "../../homepage/footer/footer";
 import ProductLanding from "../productlanding/ProductLanding";
+import AboutLanding from "../aboutlanding/AboutLanding";
 
 const NavbarLandingPage = () => {
 
@@ -51,6 +52,7 @@ const NavbarLandingPage = () => {
                         </div>
                     </div>
                     <HeroSectionLanding />
+                    <AboutLanding />
                     <Content />
                     <ProductLanding />
                     <ContentDropdown />

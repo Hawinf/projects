@@ -11,12 +11,14 @@ import Discover from './page/discover/Discover';
 import Career from './page/career/Career';
 import Contact from './page/contact/Contact';
 import LandingPage from './landingpage/LandingPage';
+import RootFurniture from './furniture/RootFurniture';
 
 
 function App() {
   return (
     <Routes>
         <Route path='/' element={<LandingPage />} />
+        <Route path='/homepagefurniture' element={<RootFurniture />} />
         <Route path='/homepagefood' element={<Homepage />} />
         <Route path='/products' element={<Product />} />
         <Route path='/rice' element={<Rice />} />
