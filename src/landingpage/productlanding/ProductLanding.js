@@ -13,7 +13,7 @@ const ProductLanding = () => {
     },[])
 
     return (
-        <div className="container" data-aos='fade-down'>
+        <div className="container mb-5" data-aos='fade-down'>
             <h1 className="productlanding-judul">Our Products</h1>
             <p>Furniture • Food</p>
             <div className="row">
