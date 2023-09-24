@@ -35,3 +35,12 @@
     text-align: center;
     color: gray;
 }
+
+@media (max-width:768px) {
+    .navbar-landing-left .logo-landing {
+        width: 150px;
+    }
+    .navbar-landing-right .menu-landing {
+        width: 30px;
+    }
+}

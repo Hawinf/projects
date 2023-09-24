@@ -25,3 +25,19 @@
     color: black;
     margin-top: 2px;
 }
+
+@media (max-width:992px) {
+    .aboutlanding-right .aboulanding-desc {
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    .about-landing {
+        display: block;
+    }
+    .aboutlanding-left{
+        text-align: center;
+    }
+}

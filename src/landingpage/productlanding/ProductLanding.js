@@ -17,14 +17,14 @@ const ProductLanding = () => {
             <h1 className="productlanding-judul">Our Products</h1>
             <p>Furniture • Food</p>
             <div className="row">
-                <div className="col-lg-4" data-aos='fade-right'>
+                <div className="col-lg-6 " data-aos='fade-right'>
                     <div className="productlanding-left">
                         <Link to='/homepagefurniture'>
                             <img className="productland-furniture" src={Furniture}  />
                         </Link>
                     </div>
                 </div>
-                <div className="col-lg-8" data-aos='fade-left'>
+                <div className="col-lg-6 " data-aos='fade-left'>
                     <div className="productlanding-right">
                         <Link to='/homepagefood'>
                             <img className="productland-food" src={Food1}  />
