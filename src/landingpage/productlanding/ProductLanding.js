@@ -13,11 +13,11 @@ const ProductLanding = () => {
     },[])
 
     return (
-        <div className="container m-5" data-aos='fade-down'>
+        <div className="container" data-aos='fade-down'>
             <h1 className="productlanding-judul">Our Products</h1>
             <p>Furniture • Food</p>
             <div className="row">
-                <div className="col-lg-6 " data-aos='fade-right'>
+                <div className="col-lg-6 " data-aos='fade-right' >
                     <div className="productlanding-left">
                         <Link to='/homepagefurniture'>
                             <img className="productland-furniture" src={Furniture}  />

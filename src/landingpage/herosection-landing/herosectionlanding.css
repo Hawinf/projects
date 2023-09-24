@@ -21,7 +21,12 @@
     margin-top: 10px;
 }
 .hero-land-right .hero-right-pict {
-    height: 400px;
+    height: 350px;
+}
+@media (max-width:992px) {
+    .hero-land-right .hero-right-pict {
+        height: 300px;
+    }
 }
 
 @media (max-width:768px) {
@@ -55,4 +60,8 @@
     }
 }
 
-
+@media (max-width:576px) {
+    .hero-landing {
+        height: 70vh;
+    }
+}
