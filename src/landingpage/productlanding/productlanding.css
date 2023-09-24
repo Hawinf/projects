@@ -12,7 +12,8 @@
     transform: scale(1.2);
     
 }
-.productlanding-judul {
+.productlanding-judul a {
+    color: black;
     font-weight: 700;
 }
 .productlanding-right {

@@ -70,7 +70,7 @@ const NavbarLandingPage = () => {
                                 <a className="link-landing" href="/why">Why Us</a>
                             </div>
                             <div  className="link-card-land">
-                                <a className="link-landing" href="/product">Products</a>
+                                <a className="link-landing" href='/category-products'>Products Category</a>
                             </div>
                             <div  className="link-card-land">
                                 <a className="link-landing" href='/contact'>Contact</a>

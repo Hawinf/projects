@@ -12,6 +12,7 @@ import Career from './page/career/Career';
 import Contact from './page/contact/Contact';
 import LandingPage from './landingpage/LandingPage';
 import RootFurniture from './furniture/RootFurniture';
+import CategoryLanding from './landingpage/cate/CategoryLanding';
 
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <Route path='/discover' element={<Discover />} />
         <Route path='/career' element={<Career />} />
         <Route path='/contact' element={<Contact />} />
-      
+        <Route path='/category-products' element={<CategoryLanding />} />
     </Routes>
   );
 }

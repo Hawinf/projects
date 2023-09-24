@@ -34,7 +34,7 @@ const Footer = () => {
                                 <a href="/discover">Discover</a>
                             </div>
                             <div class="mb-1">
-                                <a href="/products">Product</a>
+                                <a href='/category-products'>Product Category</a>
                             </div>
                             <div class="mb-1">
                                 <a href="/career">Career</a>

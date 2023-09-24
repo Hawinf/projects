@@ -14,7 +14,11 @@ const ProductLanding = () => {
 
     return (
         <div className="container mb-5" data-aos='fade-down'>
-            <h1 className="productlanding-judul">Our Products</h1>
+            <h1 className="productlanding-judul">
+                <Link to='/category-products'>
+                    Product Category
+                </Link>
+            </h1>
             <p>Furniture • Food</p>
             <div className="row">
                 <div className="col-lg-6 " data-aos='fade-right' >
