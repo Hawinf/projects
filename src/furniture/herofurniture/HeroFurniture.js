@@ -52,7 +52,7 @@ const HeroFurniture = () => {
                         </div>
                         <div className="col-lg-4 col-md-4" data-aos='fade-down'>
                             <div className="categorysatu mt-4" >
-                                <Link>
+                                <Link to='/bedroom-collections'>
                                     <img className="categorypertama" src={Bedroom} />
                                 </Link>
                             </div>

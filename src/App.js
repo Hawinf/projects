@@ -13,6 +13,7 @@ import Contact from './page/contact/Contact';
 import LandingPage from './landingpage/LandingPage';
 import RootFurniture from './furniture/RootFurniture';
 import CategoryLanding from './landingpage/cate/CategoryLanding';
+import Bedroom from './furniture/bedroom/Bedroom';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Routes>
         <Route path='/' element={<LandingPage />} />
         <Route path='/homepagefurniture' element={<RootFurniture />} />
+        <Route path='/bedroom-collections' element={<Bedroom />} />
         <Route path='/homepagefood' element={<Homepage />} />
         <Route path='/products' element={<Product />} />
         <Route path='/rice' element={<Rice />} />
