@@ -12,6 +12,7 @@ import Wardrobe from '../../assests/fcwardrobe.jpg';
 import Bedroom from '../../assests/fcbedroom.jpg';
 import Statue from '../../assests/fcstatue.jpg';
 
+
 const HeroFurniture = () => {
     useEffect(() => {
         AOS.init({duration: 2000})
@@ -28,39 +29,53 @@ const HeroFurniture = () => {
             <div className="cate-section">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5">
-                            <div className="categorysatu">
-                                <img className="categorypertama" src={LivingRoom} />
-                            </div>
-                        </div>
-                        <div className="col-lg-7">
-                            <div className="categorysatu">
-                                <img className="categorypertama" src={Kitchen} />
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-5 col-md-5" data-aos='fade-right'>
                             <div className="categorysatu mt-4">
-                                <img className="categorypertama" src={Wardrobe} />
+                                <Link>
+                                    <img className="categorypertama" src={LivingRoom} />
+                                </Link>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-7 col-md-7" data-aos='fade-left'>
                             <div className="categorysatu mt-4">
-                                <img className="categorypertama" src={Bedroom} />
+                                <Link>
+                                    <img className="categorypertama" src={Kitchen} />
+                                </Link>
                             </div>
                         </div>
-                        <div className="col-lg-4">
+                        <div className="col-lg-4 col-md-4" data-aos='fade-right'>
                             <div className="categorysatu mt-4">
-                                <img className="categorypertama" src={Statue} />
+                                <Link>
+                                    <img className="categorypertama" src={Wardrobe} />
+                                </Link>
                             </div>
                         </div>
-                        <div className="col-lg-7">
-                            <div className="categorysatu mt-4">
-                                <img className="categorypertama" src={Tables} />
+                        <div className="col-lg-4 col-md-4" data-aos='fade-down'>
+                            <div className="categorysatu mt-4" >
+                                <Link>
+                                    <img className="categorypertama" src={Bedroom} />
+                                </Link>
                             </div>
                         </div>
-                        <div className="col-lg-5">
+                        <div className="col-lg-4 col-md-4" data-aos='fade-left'>
                             <div className="categorysatu mt-4">
-                                <img className="categorypertama" src={Chair} />
+                                <Link>
+                                    <img className="categorypertama" src={Statue} />
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-lg-7 col-md-7" data-aos='fade-right'>
+                            <div className="categorysatu mt-4">
+                                <Link>
+                                    <img className="categorypertama" src={Tables} />
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="col-lg-5 col-md-5" data-aos='fade-left'>
+                            <div className="categorysatu mt-4">
+                                <Link>
+                                    <img className="categorypertama" src={Chair} />
+                                </Link>
                             </div>
                         </div>
                     </div>

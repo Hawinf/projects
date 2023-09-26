@@ -20,14 +20,33 @@
 .cate-section {
     margin: 40px 0;
 }
+.categorysatu {
+    overflow: hidden;
+}
 .categorysatu .categorypertama {
     height: 310px;
     width: 100%;
     border-radius: 5px;
+    transition: all 1.1s ;
+    
+}
+.categorysatu .categorypertama:hover {
+    transform: scale(1.2);
+    
 }
 
+
+
+@media (max-width:992px) {
+    .categorysatu .categorypertama {
+        height: 250px;
+    }
+}
 @media (max-width:768px) {
     .hero-furniture {
         height: 300px;
+    }
+    .categorysatu .categorypertama {
+        height: 200px;
     }
 }
