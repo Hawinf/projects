@@ -7,11 +7,21 @@
 .bedroom-gallery {
     margin: 50px 0;
 }
+.bedroom-judul {
+    font-weight: 700;
+}
 .bedroom-collections .bedroomsatu {
     height: 300px;
     margin-bottom: 10px;
     width: 100%;
     border-radius: 5px;
+}
+.bedroom-gallery .kontak-bedroom {
+    background: transparent;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 600;
+    font-weight: 700;
 }
 
 @media (max-width:768px) {

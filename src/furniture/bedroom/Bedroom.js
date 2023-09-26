@@ -27,9 +27,12 @@ const Bedroom = () => {
                     <div className="container">
                         <div className="bedroom-gallery">
                             <div className="row">
-                                <div className="col-lg-4" data-aos='fade-right'>
-                                    <h5>Bedroom</h5>
-                                    <p>bedrrom bedroom dbjsahsjhdj jkhhsdjh</p>
+                                <div className="col-lg-4 mb-4" data-aos='fade-right'>
+                                    <h5 className="bedroom-judul">Bedroom Collection</h5>
+                                    <p>Material</p>
+                                    <Link to='/contact' className='btn btn-success kontak-bedroom'>
+                                        Get Quotation
+                                    </Link>
                                 </div>
                                 <div className="col-lg-8" data-aos='fade-left'>
                                     <div className="row">
