@@ -1,9 +1,10 @@
 .cate-landing {
-    margin: 30px 0;
+    margin: 30px 0 160px 0;
 }
 .catenavbar {
     display: flex;
     justify-content: space-between;
+    
 }
 .catenavbar .cate-logo {
     height: 60px;
@@ -32,5 +33,11 @@
     }
     .catelanding-judul {
         font-size: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .catelanding-judul {
+        font-size: 20px;
     }
 }

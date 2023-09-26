@@ -3,6 +3,13 @@ import Food from '../../assests/food1.jpg';
 import Furniture from '../../assests/furniture.jpg';
 import Footer from "../../homepage/footer/footer";
 import Logo from '../../assests/landsnatures-low-resolution-logo-black-on-transparent-background.png';
+import LivingRoom from '../../assests/fclivingroom.jpg';
+import Kitchen from '../../assests/fckitchen.jpg';
+import Tables from '../../assests/fctables.jpg';
+import Chair from '../../assests/fcchairs.jpg';
+import Wardrobe from '../../assests/fcwardrobe.jpg';
+import Bedroom from '../../assests/fcbedroom.jpg';
+import Statue from '../../assests/fcstatue.jpg';
 import './catelanding.css';
 import { Link } from "react-router-dom";
 
@@ -17,7 +24,7 @@ const CategoryLanding = () => {
                             <img className="cate-logo" src={Logo} />
                         </Link>
                     </div>
-                    <div className="row">
+                    <div className="row mt-5">
                         <div className="col-lg-6 col-md-12">
                             <div className="cate-satu">
                                 <Link to='/homepagefurniture'>

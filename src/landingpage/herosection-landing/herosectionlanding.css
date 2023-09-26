@@ -1,6 +1,6 @@
-.hero-landing {
+/* .hero-landing {
     height: 80vh;
-}
+} */
 .hero-land-left {
     margin-top: 140px;
 }
@@ -21,11 +21,19 @@
     margin-top: 10px;
 }
 .hero-land-right .hero-right-pict {
+    margin-top: 25px;
     height: 350px;
 }
 @media (max-width:992px) {
+    .hero-land-left {
+        margin-top: 90px;
+    }
     .hero-land-right .hero-right-pict {
-        height: 300px;
+        height: 250px;
+        margin-top: 40px;
+    }
+    .hero-land-left .hero-land-desc {
+        font-size: 14px;
     }
 }
 

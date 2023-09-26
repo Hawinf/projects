@@ -9,6 +9,7 @@ import './footer.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     useEffect(() => {
@@ -67,7 +68,9 @@ const Footer = () => {
                     <div className="col-lg-3  col-md-6">
                         <div className="hak-cipta mb-4">
                             <p className="address">© 2022 Landsnatures. All rights reserved</p>
-                            <img src={LOGO} alt="LANDNATURES" />
+                            <Link to='/'>
+                                <img src={LOGO} alt="LANDNATURES" />
+                            </Link>
                         </div>
                     </div>
                 

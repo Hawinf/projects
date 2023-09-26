@@ -13,7 +13,7 @@ const HeroSectionLanding = () => {
 
     return (
         <div className="hero-landing">
-            <div className="container">
+            <div className="container my-5">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="hero-land-left" data-aos='fade-right'>

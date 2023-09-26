@@ -52,8 +52,8 @@ const Contact = () => {
                             <h6 className="info-judul">Email</h6>
                             <p className="info-content">info@landsnature.com</p>
                             <h6 className="info-judul">Phone</h6>
-                            <p className="info-content">+62 82 145 145 656 ( <i>Whatsapp Only</i> )</p>
-                            <p className="info-content">+971 50 798 0896 ( <i>Middle East</i> )</p>
+                            <p className="info-content">+62 82 145 145 656</p>
+                            <p className="info-content">+971 50 798 0896 ( <i>Dubai, United Arab Emirates.</i> )</p>
                             <h6 className="info-judul">Address</h6>
                             <p className="info-content">Batang, Central Java Indonesia</p>
                         </div>
