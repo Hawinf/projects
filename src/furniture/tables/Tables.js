@@ -2,10 +2,10 @@ import React from "react";
 import '../bedroom/bedroom.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import DiningTable1 from '../../assests/diningtables/Diningtable01.jpg';
-import DiningTable2 from '../../assests/diningtables/Diningtable02.jpg';
-import DiningTable3 from '../../assests/diningtables/Diningtable03.jpg';
-import DiningTable4 from '../../assests/diningtables/Diningtable04.jpg';
+import Table1 from '../../assests/table/1.jpg';
+import Table2 from '../../assests/table/2.jpg';
+import Table3 from '../../assests/table/3.jpg';
+import Table4 from '../../assests/table/4.jpg';
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
 import { Link } from "react-router-dom";
 import Footer from "../../homepage/footer/footer";
@@ -74,22 +74,22 @@ const Tables = () => {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={DiningTable1} />
+                                                <img className="bedroomsatu" src={Table1} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={DiningTable2} />
+                                                <img className="bedroomsatu" src={Table2} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={DiningTable3} />
+                                                <img className="bedroomsatu" src={Table3} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={DiningTable4} />
+                                                <img className="bedroomsatu" src={Table4} />
                                             </div>
                                         </div>
                                     </div>

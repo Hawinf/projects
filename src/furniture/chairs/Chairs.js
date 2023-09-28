@@ -1,8 +1,8 @@
 import React from "react";
-import Chair01 from '../../assests/Chair/Cahir01.jpg';
-import Chair02 from '../../assests/Chair/Cahir02.jpg';
-import Chair03 from '../../assests/Chair/Chair03.jpg';
-import Chair04 from '../../assests/Chair/Chair04.jpg';
+import Chair01 from '../../assests/Chair/c1.jpg';
+import Chair02 from '../../assests/Chair/c2.jpg';
+import Chair03 from '../../assests/Chair/c3.jpg';
+import Chair04 from '../../assests/Chair/c4.jpg';
 import Footer from "../../homepage/footer/footer";
 import { Link } from "react-router-dom";
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
