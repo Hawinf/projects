@@ -1,18 +1,17 @@
 import React from "react";
+import Chair01 from '../../assests/Chair/Cahir01.jpg';
+import Chair02 from '../../assests/Chair/Cahir02.jpg';
+import Chair03 from '../../assests/Chair/Chair03.jpg';
+import Chair04 from '../../assests/Chair/Chair04.jpg';
+import Footer from "../../homepage/footer/footer";
+import { Link } from "react-router-dom";
+import FurnitureHome from '../../assests/furniturehomepage.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import FurnitureHome from '../../assests/furniturehomepage.jpg';
-import Bedroom1 from '../../assests/bedroom1.jpg';
-import Bedroom2 from '../../assests/bedroom2.jpg';
-import Bedroom3 from '../../assests/bedroom3.jpg';
-import Bedroom4 from '../../assests/bedroom4.jpg';
 import { useEffect } from "react";
+import '../bedroom/bedroom.css';
 
-import './bedroom.css';
-import { Link } from "react-router-dom";
-import Footer from "../../homepage/footer/footer";
-
-const Bedroom = () => {
+const Chairs = () => {
     useEffect(() => {
         AOS.init({duration: 2000})
     },[])
@@ -28,8 +27,8 @@ const Bedroom = () => {
                         <div className="bedroom-gallery">
                             <div className="row">
                                 <div className="col-lg-3 mb-4" data-aos='fade-right'>
-                                    <h5 className="bedroom-judul">Bedroom Collection</h5>
-                                    <p>Everything in Bedroom collection</p>
+                                    <h5 className="bedroom-judul">Chairs Collection</h5>
+                                    <p>Everything in chairs collection</p>
                                     <Link to='/contact' className='btn btn-success kontak-bedroom'>
                                         Get Quotation
                                     </Link>
@@ -57,8 +56,8 @@ const Bedroom = () => {
                                         </Link>
                                     </div>
                                     <div>
-                                        <Link to='/chairs-collection'>
-                                            Chairs Collection
+                                        <Link to='/bedroom-collections'>
+                                            Bedroom Collection
                                         </Link>
                                     </div>
                                     <div>
@@ -76,22 +75,22 @@ const Bedroom = () => {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom1} />
+                                                <img className="bedroomsatu" src={Chair01} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom2} />
+                                                <img className="bedroomsatu" src={Chair02} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom3} />
+                                                <img className="bedroomsatu" src={Chair03} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom4} />
+                                                <img className="bedroomsatu" src={Chair04} />
                                             </div>
                                         </div>
                                     </div>
@@ -107,4 +106,4 @@ const Bedroom = () => {
     );
 };
 
-export default Bedroom;
+export default Chairs;

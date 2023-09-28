@@ -28,24 +28,27 @@ const HeroFurniture = () => {
             </div>
             <div className="cate-section">
                 <div className="container">
+                    <div className="">
+                        <p>jhdsajbsjbdsjbdsjkdsjkfjkekjewjrijeir uiewui ioiuiei ciewiieieitiuiiid fjh uiuhtu4huihi</p>
+                    </div>
                     <div className="row">
                         <div className="col-lg-5 col-md-5" data-aos='fade-right'>
                             <div className="categorysatu mt-4">
-                                <Link>
+                                <Link to='/livingroom-collections'>
                                     <img className="categorypertama" src={LivingRoom} />
                                 </Link>
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-7" data-aos='fade-left'>
                             <div className="categorysatu mt-4">
-                                <Link>
+                                <Link to='/kitchen-collections'>
                                     <img className="categorypertama" src={Kitchen} />
                                 </Link>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4" data-aos='fade-right'>
                             <div className="categorysatu mt-4">
-                                <Link>
+                                <Link to='/wardobe-collections'>
                                     <img className="categorypertama" src={Wardrobe} />
                                 </Link>
                             </div>
@@ -59,21 +62,21 @@ const HeroFurniture = () => {
                         </div>
                         <div className="col-lg-4 col-md-4" data-aos='fade-left'>
                             <div className="categorysatu mt-4">
-                                <Link>
+                                <Link to='/statue-collections'>
                                     <img className="categorypertama" src={Statue} />
                                 </Link>
                             </div>
                         </div>
                         <div className="col-lg-7 col-md-7" data-aos='fade-right'>
                             <div className="categorysatu mt-4">
-                                <Link>
+                                <Link to='/tables-collections'>
                                     <img className="categorypertama" src={Tables} />
                                 </Link>
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-5" data-aos='fade-left'>
                             <div className="categorysatu mt-4">
-                                <Link>
+                                <Link to='/chairs-collection'>
                                     <img className="categorypertama" src={Chair} />
                                 </Link>
                             </div>

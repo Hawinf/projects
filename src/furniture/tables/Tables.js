@@ -1,22 +1,20 @@
 import React from "react";
+import '../bedroom/bedroom.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import DiningTable1 from '../../assests/diningtables/Diningtable01.jpg';
+import DiningTable2 from '../../assests/diningtables/Diningtable02.jpg';
+import DiningTable3 from '../../assests/diningtables/Diningtable03.jpg';
+import DiningTable4 from '../../assests/diningtables/Diningtable04.jpg';
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
-import Bedroom1 from '../../assests/bedroom1.jpg';
-import Bedroom2 from '../../assests/bedroom2.jpg';
-import Bedroom3 from '../../assests/bedroom3.jpg';
-import Bedroom4 from '../../assests/bedroom4.jpg';
-import { useEffect } from "react";
-
-import './bedroom.css';
 import { Link } from "react-router-dom";
 import Footer from "../../homepage/footer/footer";
+import { useEffect } from "react";
 
-const Bedroom = () => {
+const Tables = () => {
     useEffect(() => {
         AOS.init({duration: 2000})
     },[])
-
     return (
         <>
             <div className="bedroom">
@@ -28,8 +26,8 @@ const Bedroom = () => {
                         <div className="bedroom-gallery">
                             <div className="row">
                                 <div className="col-lg-3 mb-4" data-aos='fade-right'>
-                                    <h5 className="bedroom-judul">Bedroom Collection</h5>
-                                    <p>Everything in Bedroom collection</p>
+                                    <h5 className="bedroom-judul">Tables Collection</h5>
+                                    <p>Everything in Tables collection</p>
                                     <Link to='/contact' className='btn btn-success kontak-bedroom'>
                                         Get Quotation
                                     </Link>
@@ -67,8 +65,8 @@ const Bedroom = () => {
                                         </Link>
                                     </div>
                                     <div>
-                                        <Link to='/tables-collections'>
-                                            Tables Collection
+                                        <Link to='/bedroom-collections'>
+                                            Bedroom Collection
                                         </Link>
                                     </div>
                                 </div>
@@ -76,22 +74,22 @@ const Bedroom = () => {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom1} />
+                                                <img className="bedroomsatu" src={DiningTable1} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom2} />
+                                                <img className="bedroomsatu" src={DiningTable2} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom3} />
+                                                <img className="bedroomsatu" src={DiningTable3} />
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Bedroom4} />
+                                                <img className="bedroomsatu" src={DiningTable4} />
                                             </div>
                                         </div>
                                     </div>
@@ -107,4 +105,4 @@ const Bedroom = () => {
     );
 };
 
-export default Bedroom;
+export default Tables;

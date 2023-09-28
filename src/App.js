@@ -14,6 +14,12 @@ import LandingPage from './landingpage/LandingPage';
 import RootFurniture from './furniture/RootFurniture';
 import CategoryLanding from './landingpage/cate/CategoryLanding';
 import Bedroom from './furniture/bedroom/Bedroom';
+import Chairs from './furniture/chairs/Chairs';
+import LivingRoom from './furniture/livingroom/LivingRoom';
+import Kitchen from './furniture/kitchen/Kitchen';
+import Wardrobe from './furniture/wardrobe/Wardrobe';
+import Statue from './furniture/statue/Statue';
+import Tables from './furniture/tables/Tables';
 
 
 function App() {
@@ -22,6 +28,14 @@ function App() {
         <Route path='/' element={<LandingPage />} />
         <Route path='/homepagefurniture' element={<RootFurniture />} />
         <Route path='/bedroom-collections' element={<Bedroom />} />
+        <Route path='/chairs-collection' element={<Chairs />} />
+        <Route path='/livingroom-collections' element={<LivingRoom />} />
+        <Route path='/kitchen-collections' element={<Kitchen />} />
+        <Route path='/wardobe-collections' element={<Wardrobe />} />
+        <Route path='/statue-collections' element={<Statue />} />
+        <Route path='/tables-collections' element={<Tables />} />
+        
+
         <Route path='/homepagefood' element={<Homepage />} />
         <Route path='/products' element={<Product />} />
         <Route path='/rice' element={<Rice />} />
