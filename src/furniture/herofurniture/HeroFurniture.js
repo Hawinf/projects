@@ -11,6 +11,7 @@ import Chair from '../../assests/fcchairs.jpg';
 import Wardrobe from '../../assests/fcwardrobe.jpg';
 import Bedroom from '../../assests/fcbedroom.jpg';
 import Statue from '../../assests/fcstatue.jpg';
+import Footer from "../../homepage/footer/footer";
 
 
 const HeroFurniture = () => {
@@ -84,6 +85,7 @@ const HeroFurniture = () => {
                     </div>
                 </div>
             </div>
+            
         </>
     );
 };

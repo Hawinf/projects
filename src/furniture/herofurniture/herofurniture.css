@@ -1,6 +1,7 @@
 .hero-furniture {
     background-image: url('../../assests//furniture.jpg');
     height: 530px;
+    width: 100%;
     background-size: cover;
     text-align: center;
 }
