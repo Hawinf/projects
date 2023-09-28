@@ -28,8 +28,8 @@ const Kitchen = () => {
                         <div className="bedroom-gallery">
                             <div className="row">
                                 <div className="col-lg-3 mb-4" data-aos='fade-right'>
-                                    <h5 className="bedroom-judul">Kitchen Collection</h5>
-                                    <p>Everything in kitchen collection</p>
+                                    <h5 className="bedroom-judul">Dining Collection</h5>
+                                    <p>Everything in Dining collection</p>
                                     <Link to='/contact' className='btn btn-success kontak-bedroom'>
                                         Get Quotation
                                     </Link>
