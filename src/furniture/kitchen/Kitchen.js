@@ -11,7 +11,7 @@ const Kitchen = () => {
 
     return (
         <div>
-            <h5>No Available Pict</h5>
+            <h5>YoYok please share the Pictures urgent hahah</h5>
         </div>
     );
 };
