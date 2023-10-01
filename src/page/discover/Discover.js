@@ -43,8 +43,8 @@ const Discover = () => {
                     </div>
                     <div className="stories-discover" data-aos='zoom-out'>
                         <h1 className="stories-judul">The First Campaign on Landsnature Was Our Own</h1>
-                        <p className="stories-desc">We are thrilled to unveil our very first marketing campaign, and we couldn't be more excited to share it with you. "Discover <b>Landsnature</b>!" is not just a campaign; it's an invitation to embark on a journey of exploration, excellence, and exceptional experiences. Our campaign is all about uncovering the hidden gems that await you on <b>Landsnature</b>. From unique products to exclusive offers, we're shining a spotlight on what sets us apart.</p>
-                        <p className="stories-desc">Stay connected, stay inspired, and stay tuned for the amazing surprises that await you. Welcome to <b>Landsnature</b>, where every discovery is a joy!</p>
+                        <p className="stories-desc">We are thrilled to unveil our very first marketing campaign, and we couldn't be more excited to share it with you. "<b>Discover Landsnature</b>!" is not just a campaign; it's an invitation to embark on a journey of exploration, excellence, and exceptional experiences. Our campaign is all about uncovering the hidden gems that await you on <b>Landsnature</b>. From unique products to exclusive offers, we're shining a spotlight on what sets us apart.</p>
+                        <p className="stories-desc"><b>Stay connected, stay inspired, and stay tuned for the amazing surprises that await you. Welcome to Landsnature, where every discovery is a joy!</b></p>
                     </div>
                     <div className="our-people">
                         <div className="row">
@@ -60,9 +60,9 @@ const Discover = () => {
                             <div className="col-lg-6 col-md-6" data-aos='fade-out'>
                                 <div className="our-right">
                                     <h1 className="our-right-judul">Growing Together</h1>
-                                    <p className="our-right-desc">We believe in the power of growth and the strength of community. Our "Growing Together" initiative is more than just a campaign, it's a reflection of our dedication to fostering progress and unity.</p>
+                                    <p className="our-right-desc">We believe in the power of growth and the strength of community. Our "<b>Growing Together</b>" initiative is more than just a campaign, it's a reflection of our dedication to fostering progress and unity.</p>
                                     <p className="our-right-desc"><b>Landsnature</b> has been a remarkable source of inspiration for numerous individuals and has actively engaged the community in bolstering the local economy. Through increased production and the expansion of our workforce, we are committed to fostering economic growth. Our unwavering dedication to product excellence is driven by our overarching goal: to enrich lives in every conceivable dimension.</p>
-                                    <p className="our-right-desc">Together, we grow stronger, reach higher, and achieve more.</p>
+                                    <p className="our-right-desc"><b>Together, we grow stronger, reach higher, and achieve more</b>.</p>
                                 </div>
                             </div>
                         </div>
