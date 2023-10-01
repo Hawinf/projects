@@ -9,6 +9,12 @@
 .catenavbar .cate-logo {
     height: 60px;
 }
+.cate-desc {
+    margin: 50px 0;
+}
+.cate-desc .desc-cate-p {
+    font-size: 17px;
+}
 .catelanding-judul {
     font-weight: 700;
     margin-bottom: 30px;
@@ -39,5 +45,8 @@
 @media (max-width:576px) {
     .catelanding-judul {
         font-size: 20px;
+    }
+    .cate-desc .desc-cate-p {
+        font-size: 14px;
     }
 }

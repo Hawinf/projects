@@ -59,7 +59,9 @@ const HeroFurniture = () => {
                                 </div>
                             </div>
                         </div>
-                        <h3 className="hero-judul">Product Category</h3>
+                        <h3 className="hero-judul" data-aos='fade-right'>Product Category</h3>
+                        <p className="hero-desc" data-aos='fade-left'>Welcome to our Customizable Furniture collection, where you have the power to create furniture that truly reflects your unique style and preferences. We understand that every home is special, and your furniture should be too. Our customizable furniture category empowers you to design pieces that perfectly fit your vision, making your living spaces a true reflection of your personality and lifestyle.</p>
+                        <p className="hero-desc" data-aos='fade-right'>Elevate your home decor to the next level with furniture that's uniquely yours. Explore our Customizable Furniture category and start designing today!</p>
                     </div>
                     <div className="row">
                         <div className="col-lg-5 col-md-5" data-aos='fade-right'>
