@@ -21,6 +21,27 @@
 .cate-section {
     margin: 40px 0;
 }
+.cate-section .hero-judul {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+.cate-section .hero-desc {
+    font-weight: 400;
+    font-size: 17px;
+}
+.cate-section .hero-sistem {
+    display: flex;
+    
+}
+.hero-kartu {
+    margin: 24px 0;
+    text-align: center;
+}
+.hero-kartu .hero-gambar {
+    height: 70px;
+    margin-bottom: 20px;
+}
 .categorysatu {
     overflow: hidden;
 }
@@ -49,5 +70,21 @@
     }
     .categorysatu .categorypertama {
         height: 200px;
+    }
+    .cate-section .hero-judul {
+        font-size: 24px;
+    }
+    .cate-section .hero-desc {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:576px) {
+    .hero-kartu .hero-gambar {
+        height: 50px;
+        
+    }
+    .hero-kartu .kartu-judul {
+        font-size: 14px;
     }
 }

@@ -11,6 +11,9 @@ import Chair from '../../assests/fcchairs.jpg';
 import Wardrobe from '../../assests/fcwardrobe.jpg';
 import Bedroom from '../../assests/fcbedroom.jpg';
 import Statue from '../../assests/fcstatue.jpg';
+import Custom from '../../assests/customization.png';
+import Material from '../../assests/material.png';
+import Pricing from '../../assests/pricing.png';
 import Footer from "../../homepage/footer/footer";
 
 
@@ -30,7 +33,31 @@ const HeroFurniture = () => {
             <div className="cate-section">
                 <div className="container">
                     <div className="">
-                        <p>jhdsajbsjbdsjbdsjkdsjkfjkekjewjrijeir uiewui ioiuiei ciewiieieitiuiiid fjh uiuhtu4huihi</p>
+                        <h3 className="hero-judul">We Deliver Our Furniture To The World</h3>
+                        <p className="hero-desc">Landsnature’s design and layout are tailored to promote collaboration, creativity, and comfort. We follow a detailed process to meet your end to end customization needs. Our highly qualified, creative, and skilled team ensures to deliver top-notch outcomes with premium quality and given time frame, making teams work efficiently and effectively.</p>
+                        <p className="hero-desc">A "customizable furniture" implies that customers have the flexibility to personalize or tailor the product according to their individual preferences and needs, allowing for a more personalized and unique purchase experience.</p>
+                        <h3 className="hero-judul">What We Offers</h3>
+                        <div className="hero-sistem">
+                            <div className="col-lg-4 col-md-4 col-sm-4">
+                                <div className="hero-kartu">
+                                    <img className="hero-gambar" src={Custom} />
+                                    <h5 className="kartu-judul">customization</h5>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-4 col-sm-4">
+                                <div  className="hero-kartu">
+                                    <img className="hero-gambar" src={Pricing} />
+                                    <h5 className="kartu-judul">Budget Planning</h5>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-4 col-sm-4">
+                                <div className="hero-kartu">
+                                    <img className="hero-gambar" src={Material} />
+                                    <h5 className="kartu-judul">Material</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 className="hero-judul">Product Category</h3>
                     </div>
                     <div className="row">
                         <div className="col-lg-5 col-md-5" data-aos='fade-right'>
