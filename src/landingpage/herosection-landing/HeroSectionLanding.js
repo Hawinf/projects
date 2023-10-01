@@ -17,8 +17,8 @@ const HeroSectionLanding = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="hero-land-left" data-aos='fade-right'>
-                            <h1 className="hero-land-judul">Connecting all leaders to their future potential</h1>
-                            <p className="hero-land-desc">In partnership with the world’s top business schools, our enterprise leadership development solutions create a diverse pool of future-ready leaders.</p>
+                            <h1 className="hero-land-judul">Connecting all to their future potential</h1>
+                            <p className="hero-land-desc">In partnership with the world’s top business, our enterprise leadership development solutions create a diverse pool of future-ready.</p>
                             <Link to='/contact' className="btn btn-success link">
                                 Connect
                             </Link>
