@@ -30,7 +30,7 @@ const Discover = () => {
                                 <h2 className="discover-judul">About Us</h2>
                                 <p className="discover-desc">Welcome to <b>Landsnature</b> - Your Gateway to Quality Products from Trusted Manufacturers!</p>
                                 <p className="discover-desc">We're proud to present a curated marketplace where you can explore an extensive range of exceptional products sourced directly from trusted manufacturers across the globe. We believe that choice, quality, and convenience should be at the forefront of your shopping experience, and that's precisely what we offer.</p>
-                                <p className="discover-desc">Experience the joy of discovering high-quality products crafted by trusted manufacturers from around the world, all conveniently available in one place. Unlock a world of possibilities and make your shopping experience extraordinary with <b>Landsnature</b></p>
+                                <p className="discover-desc">Experience the joy of discovering high-quality products crafted by trusted manufacturers from around the world, all conveniently available in one place. Unlock a world of possibilities and make your shopping experience extraordinary with <b>Landsnature</b>.</p>
                                 <Link to='/contact' className="btn btn-success link">
                                     Connect With Us
                                 </Link>
@@ -60,7 +60,9 @@ const Discover = () => {
                             <div className="col-lg-6 col-md-6" data-aos='fade-out'>
                                 <div className="our-right">
                                     <h1 className="our-right-judul">Growing Together</h1>
-                                    <p className="our-right-desc">Landsnature has been a remarkable source of inspiration for numerous individuals and has actively engaged the community in bolstering the local economy. Through increased production and the expansion of our workforce, we are committed to fostering economic growth. Our unwavering dedication to product excellence is driven by our overarching goal: to enrich lives in every conceivable dimension.</p>
+                                    <p className="our-right-desc">We believe in the power of growth and the strength of community. Our "Growing Together" initiative is more than just a campaign, it's a reflection of our dedication to fostering progress and unity.</p>
+                                    <p className="our-right-desc"><b>Landsnature</b> has been a remarkable source of inspiration for numerous individuals and has actively engaged the community in bolstering the local economy. Through increased production and the expansion of our workforce, we are committed to fostering economic growth. Our unwavering dedication to product excellence is driven by our overarching goal: to enrich lives in every conceivable dimension.</p>
+                                    <p className="our-right-desc">Together, we grow stronger, reach higher, and achieve more.</p>
                                 </div>
                             </div>
                         </div>
