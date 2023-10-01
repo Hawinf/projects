@@ -27,8 +27,10 @@ const Discover = () => {
                     <div className="discover-content">
                         
                             <div className="discover-section-left" data-aos='fade-left'>
-                                <h2 className="discover-judul">Success Stories</h2>
-                                <p className="discover-desc">Landsnature's inception was rooted in environmental consciousness, a vision that has thrived with the passage of time. Our deep concern has always revolved around the imminent threat to essential food ingredients, posed by the dwindling rice fields, unpredictable weather patterns, and recurrent planting failures. In response, we have embarked on a relentless journey of innovation, driven by a commitment to discover healthier alternatives to safeguard our future, effectively substituting for rice.</p>
+                                <h2 className="discover-judul">About Us</h2>
+                                <p className="discover-desc">Welcome to <b>Landsnature</b> - Your Gateway to Quality Products from Trusted Manufacturers!</p>
+                                <p className="discover-desc">We're proud to present a curated marketplace where you can explore an extensive range of exceptional products sourced directly from trusted manufacturers across the globe. We believe that choice, quality, and convenience should be at the forefront of your shopping experience, and that's precisely what we offer.</p>
+                                <p className="discover-desc">Experience the joy of discovering high-quality products crafted by trusted manufacturers from around the world, all conveniently available in one place. Unlock a world of possibilities and make your shopping experience extraordinary with <b>Landsnature</b></p>
                                 <Link to='/contact' className="btn btn-success link">
                                     Connect With Us
                                 </Link>
@@ -41,7 +43,8 @@ const Discover = () => {
                     </div>
                     <div className="stories-discover" data-aos='zoom-out'>
                         <h1 className="stories-judul">The First Campaign on Landsnature Was Our Own</h1>
-                        <p className="stories-desc">Landsnature had its humble beginnings as a home-based industry, working with limited production tools. Yet, during that period, our products faced fierce competition in the thriving local market due to their high demand and customer satisfaction. As our reputation grew, so did our production capacity, eventually leading us to explore international markets. Adapting to the changing times, we continuously enhance our products to cater to a broader audience, earning recognition both nationally and internationally.</p>
+                        <p className="stories-desc">We are thrilled to unveil our very first marketing campaign, and we couldn't be more excited to share it with you. "Discover <b>Landsnature</b>!" is not just a campaign; it's an invitation to embark on a journey of exploration, excellence, and exceptional experiences. Our campaign is all about uncovering the hidden gems that await you on <b>Landsnature</b>. From unique products to exclusive offers, we're shining a spotlight on what sets us apart.</p>
+                        <p className="stories-desc">Stay connected, stay inspired, and stay tuned for the amazing surprises that await you. Welcome to <b>Landsnature</b>, where every discovery is a joy!</p>
                     </div>
                     <div className="our-people">
                         <div className="row">
