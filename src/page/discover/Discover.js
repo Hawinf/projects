@@ -1,6 +1,6 @@
 import React  from "react";
 import { Link } from "react-router-dom";
-import DiscoverPict from '../../assests/discover.jpg';
+import DiscoverPict from '../../assests/hero-land.jpg';
 import Marquee from "react-fast-marquee";
 import Stories5 from '../../assests/stories5.jpg';
 import Stories4 from '../../assests/stories4.jpg';

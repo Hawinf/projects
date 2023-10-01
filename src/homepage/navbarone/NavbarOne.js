@@ -1,5 +1,5 @@
 import React from "react";
-import LOGO from '../../assests/logo3.png';
+import LOGO from '../../assests/landsnatures-low-resolution-logo-black-on-transparent-background.png';
 import './navbarone.css';
 import { Link } from "react-router-dom";
 
