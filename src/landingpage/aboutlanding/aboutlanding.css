@@ -40,4 +40,8 @@
     .aboutlanding-left{
         text-align: center;
     }
+    .aboutlanding-right {
+        
+        margin-left: 0px;
+    }
 }
