@@ -77,11 +77,18 @@
     .cate-section .hero-desc {
         font-size: 14px;
     }
+    .hero-kartu .hero-gambar {
+        height: 40px;
+        
+    }
 }
 
 @media (max-width:576px) {
+    .hero-kartu {
+        margin: 10px;
+    }
     .hero-kartu .hero-gambar {
-        height: 50px;
+        height: 30px;
         
     }
     .hero-kartu .kartu-judul {

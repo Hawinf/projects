@@ -40,24 +40,26 @@ const HeroFurniture = () => {
                             <h3 className="hero-judul">What We Offers</h3>
                         </div>
                         <div className="hero-sistem" data-aos='fade-up'>
-                            <div className="col-lg-4 col-md-4 col-sm-4">
-                                <div className="hero-kartu">
-                                    <img className="hero-gambar" src={Custom} />
-                                    <h5 className="kartu-judul">customization</h5>
+                            {/* <div className="row"> */}
+                                <div className="col-lg-4 col-md-4 col-sm-4">
+                                    <div className="hero-kartu">
+                                        <img className="hero-gambar" src={Custom} />
+                                        <h5 className="kartu-judul">customization</h5>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-4">
-                                <div  className="hero-kartu">
-                                    <img className="hero-gambar" src={Pricing} />
-                                    <h5 className="kartu-judul">Budget Planning</h5>
+                                <div className="col-lg-4 col-md-4 col-sm-4">
+                                    <div  className="hero-kartu">
+                                        <img className="hero-gambar" src={Pricing} />
+                                        <h5 className="kartu-judul">Budget Planning</h5>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-4 col-md-4 col-sm-4">
-                                <div className="hero-kartu">
-                                    <img className="hero-gambar" src={Material} />
-                                    <h5 className="kartu-judul">Material</h5>
+                                <div className="col-lg-4 col-md-4 col-sm-4">
+                                    <div className="hero-kartu">
+                                        <img className="hero-gambar" src={Material} />
+                                        <h5 className="kartu-judul">Material</h5>
+                                    </div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                         <h3 className="hero-judul" data-aos='fade-right'>Product Category</h3>
                         <p className="hero-desc" data-aos='fade-left'>Welcome to our Customizable Furniture collection, where you have the power to create furniture that truly reflects your unique style and preferences. We understand that every home is special, and your furniture should be too. Our customizable furniture category empowers you to design pieces that perfectly fit your vision, making your living spaces a true reflection of your personality and lifestyle.</p>
