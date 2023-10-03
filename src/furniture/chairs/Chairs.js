@@ -1,8 +1,10 @@
 import React from "react";
 import Chair01 from '../../assests/Chair/c1.jpg';
 import Chair02 from '../../assests/Chair/c2.jpg';
-import Chair03 from '../../assests/Chair/c3.jpg';
-import Chair04 from '../../assests/Chair/c4.jpg';
+import Chair03 from '../../assests/luxsofa.jpg';
+import Chair04 from '../../assests/chair040.jpg';
+import Chair05 from '../../assests/chair01.jpg';
+import Chair06 from '../../assests/Chair03.jpg';
 import Footer from "../../homepage/footer/footer";
 import { Link } from "react-router-dom";
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
@@ -91,6 +93,16 @@ const Chairs = () => {
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
                                                 <img className="bedroomsatu" src={Chair04} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Chair05} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Chair06} />
                                             </div>
                                         </div>
                                     </div>

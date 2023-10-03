@@ -9,6 +9,8 @@ import Kc1 from '../../assests/diningtables/Diningtable01.jpg';
 import Kc2 from '../../assests/diningtables/Diningtable02.jpg';
 import Kc3 from '../../assests/diningtables/Diningtable03.jpg';
 import Kc4 from '../../assests/diningtables/Diningtable04.jpg';
+import Kc5 from '../../assests/diningtable011.jpg';
+import Kc6 from '../../assests/diningtable.jpg';
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
 
 
@@ -92,6 +94,16 @@ const Kitchen = () => {
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
                                                 <img className="bedroomsatu" src={Kc4} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Kc5} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Kc6} />
                                             </div>
                                         </div>
                                     </div>

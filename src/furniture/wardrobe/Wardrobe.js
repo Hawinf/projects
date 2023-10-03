@@ -9,6 +9,8 @@ import W1 from '../../assests/cupboard/w1.jpg';
 import W2 from '../../assests/cupboard/w2.jpg';
 import W3 from '../../assests/cupboard/w3.jpg';
 import W4 from '../../assests/cupboard/w4.jpg';
+import W5 from '../../assests/cupboard/cuboard01.jpg';
+import W6 from '../../assests/cupboard/cupboard02.jpg';
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
 
 
@@ -92,6 +94,16 @@ const Wardrobe = () => {
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
                                                 <img className="bedroomsatu" src={W4} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={W5} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={W6} />
                                             </div>
                                         </div>
                                     </div>

@@ -6,7 +6,11 @@ import { useEffect } from "react";
 import lr01 from '../../assests/livingroom/lr01.jpg';
 import Lr02 from '../../assests/livingroom/lr02.jpg';
 import Lr03 from '../../assests/livingroom/lr03.jpg';
-import Lr4 from '../../assests/livingroom/lr04.jpg';
+import Lr04 from '../../assests/livingroom/lr04.jpg';
+import Lv05 from '../../assests/livingroom/livingroonm01.jpg';
+import Lv06 from '../../assests/livingroom/sofaset.jpg';
+import Lv07 from '../../assests/livingroom/homeset.jpg';
+import Lv08 from '../../assests/livingroom/setsofaandtable.jpg';
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
 import Footer from "../../homepage/footer/footer";
 import { Link } from "react-router-dom";
@@ -90,7 +94,27 @@ const LivingRoom = () => {
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
-                                                <img className="bedroomsatu" src={Lr4} />
+                                                <img className="bedroomsatu" src={Lr04} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Lv05} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Lv06} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Lv07} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Lv08} />
                                             </div>
                                         </div>
                                     </div>

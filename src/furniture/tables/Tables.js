@@ -6,6 +6,12 @@ import Table1 from '../../assests/table/1.jpg';
 import Table2 from '../../assests/table/2.jpg';
 import Table3 from '../../assests/table/3.jpg';
 import Table4 from '../../assests/table/4.jpg';
+import Table5 from '../../assests/table/office01.jpg';
+import Table6 from '../../assests/table/office02.jpg';
+import Table7 from '../../assests/table/minimalis.jpg';
+import Table8 from '../../assests/table/tableset.jpg';
+import Table9 from '../../assests/table/meja.jpg';
+import Table10 from '../../assests/table/simple.jpg';
 import FurnitureHome from '../../assests/furniturehomepage.jpg';
 import { Link } from "react-router-dom";
 import Footer from "../../homepage/footer/footer";
@@ -90,6 +96,36 @@ const Tables = () => {
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
                                                 <img className="bedroomsatu" src={Table4} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Table5} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Table6} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Table7} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Table8} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Table9} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Table10} />
                                             </div>
                                         </div>
                                     </div>

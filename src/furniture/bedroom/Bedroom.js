@@ -6,6 +6,8 @@ import Bedroom1 from '../../assests/bedroom1.jpg';
 import Bedroom2 from '../../assests/bedroom2.jpg';
 import Bedroom3 from '../../assests/bedroom3.jpg';
 import Bedroom4 from '../../assests/bedroom4.jpg';
+import Bedroom5 from '../../assests/dipan.jpg';
+import Bedroom6 from '../../assests/29.jpg';
 import { useEffect } from "react";
 
 import './bedroom.css';
@@ -92,6 +94,16 @@ const Bedroom = () => {
                                         <div className="col-lg-6">
                                             <div className="bedroom-collections">
                                                 <img className="bedroomsatu" src={Bedroom4} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Bedroom5} />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="bedroom-collections">
+                                                <img className="bedroomsatu" src={Bedroom6} />
                                             </div>
                                         </div>
                                     </div>
